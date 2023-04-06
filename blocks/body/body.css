@@ -1,0 +1,13 @@
+.body {
+  min-width: 320px;
+  max-width: 1280px;
+  background: #1d1d1d;
+  background-size: cover;
+  display: block;
+  font-family: 'PlayfairDisplay', 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #fff;
+  padding-left: 13rem;
+}

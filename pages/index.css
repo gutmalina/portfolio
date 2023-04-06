@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/span/span.css);
+@import url(../blocks/span/__lead/span__lead.css);
+@import url(../blocks/span/__section/span__section.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__container/lead__container.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+
+@import url(../blocks/greeting/greeting.css);
+@import url(../blocks/greeting/__title/greeting__title.css);
+@import url(../blocks/greeting/__subtitle/greeting__subtitle.css);
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__img/project__img.css);
+@import url(../blocks/project/__img/project__img_hover.css);
+@import url(../blocks/project/__about/project__about.css);
+@import url(../blocks/project/__name/project__name.css);
+@import url(../blocks/project/__links/project__links.css);
+@import url(../blocks/project/__link/project__link.css);
+@import url(../blocks/project/__link/project__link_img.css);

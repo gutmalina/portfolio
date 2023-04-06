@@ -1,0 +1,10 @@
+.project__img {
+  width: 100%;
+  aspect-ratio: 1/.7;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+  opacity: 1;
+  transform: rotateY(0deg);
+  transition: transform .9s, opacity .2s cubic-bezier(1, 0, 0, 1);
+}

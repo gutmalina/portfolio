@@ -1,0 +1,14 @@
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 3%;
+  transform: translateX(-2em);
+  width: calc(100vw - 13rem - 4%);
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    width: calc(100vw - 13rem - 10%);
+  }
+}

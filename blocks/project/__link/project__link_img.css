@@ -1,0 +1,13 @@
+.project__link_img {
+  position: relative;
+}
+
+.project__link_img:hover .project__img{
+  opacity: 0;
+  transform: rotateY(180deg);
+}
+
+.project__link_img:hover .project__img_hover{
+  opacity: 1;
+  transform: rotateY(0deg);
+}
