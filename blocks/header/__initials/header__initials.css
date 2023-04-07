@@ -1,0 +1,6 @@
+.header__initials {
+  position: relative;
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+  transform: translateX(-0.4em);
+}

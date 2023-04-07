@@ -1,0 +1,5 @@
+.skills__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 0.5em;
+}

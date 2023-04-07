@@ -1,0 +1,8 @@
+.contact__item {
+  width: 100%;
+  background: #2b2b2b;
+  font-size: 1.5rem;
+  color: #8d8d8d;
+  padding: 20px;
+  box-sizing: border-box;
+}

@@ -1,6 +1,4 @@
-.main {
+.portfolio {
   display: flex;
   flex-direction: column;
-  padding-left: 2em;
-  width: 100%;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,30 @@
     <title>Portfolio Gutkevich Marina</title>
 </head>
 <body class="body">
-    <header class="header"></header>
+    <header class="header">
+      <article class="header__name">
+        <a href="#lead" class="header__links">
+          <div class="header__initials">
+            <h2 class="header__title">G</h2>
+            <h2 class="header__title header__title_bottom">M</h2>
+          </div>
+        </a>
+        <p class="header__subtitle">Web developer</p>
+      </article>
+      <ul class="header__links header__pages">
+        <li class="header__border"><a href="#" class="header__link greeting__subtitle">About</a></li>
+        <li class="header__border"><a href="#skills" class="header__link greeting__subtitle">My Skills</a></li>
+        <li class="header__border"><a href="#portfolio" class="header__link greeting__subtitle">Portfolio</a></li>
+        <li class="header__border"><a href="#footer" class="header__link greeting__subtitle">Contact</a></li>
+      </ul>
+      <ul class="header__links header__icons">
+        <li> <a href="https://github.com/gutmalina" target="_blank"><img class="header__icon" src="./images/github-white.svg" alt="Github"></a></li>
+        <li><a href="https://www.linkedin.com/in/gutmalina/" target="_blank"><img class="header__icon" src="./images/linkedin-white.svg" alt="Linkedin"></a></li>
+        <li><a href="https://t.me/Gutmalina" target="_blank"><img class="header__icon" src="./images/telegram-white.svg" alt="Telegram"></a></li>
+      </ul>
+    </header>
     <main class="main">
-      <section class="lead">
+      <section id="lead" class="lead">
         <div class="lead__container">
           <span class="span span__lead">&lthtml&gt</span>
           <span class="span">&ltbody&gt</span>
@@ -18,92 +39,149 @@
         <article class="greeting">
           <span class="span">&lth1&gt</span>
           <h1 class="greeting__title">Привет, я Марина,
-                                      web developer <span class="span">&lt/h1&gt</span>
+                                      web developer
           </h1>
+          <span class="span">&lt/h1&gt</span>
           <span class="span">&ltp&gt</span>
           <p class="greeting__subtitle">Frontend developer/ React developer</p>
           <span class="span">&lt/p&gt</span>
         </article>
-        <div class="lead__subtitle jump">Мои проекты &darr;</div>
+        <div class="lead__subtitle jump">Portfolio<span class="lead__span jump">&darr;</span></div>
       </section>
+      <section id="portfolio" class="portfolio">
+        <article class="greeting">
+          <span class="span">&lth2&gt</span>
+          <h2 class="greeting__title">Моё портфолио</h2>
+          <span class="span">&lt/h2&gt</span>
+          <span class="span">&ltp&gt</span>
+          <p class="greeting__subtitle">Описание моего портфолио</p>
+          <span class="span">&lt/p&gt</span>
+          <span class="span span__section">&ltsection&gt</span>
+        </article>
+        <article class="projects">
+          <div class="project">
+            <a href="https://gutmalina.github.io/react-burger/"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
+              <img class="project__img" src="./images/blair-connolly-JPf0qwXV2ts-unsplash.jpg" alt="фон под изображение проекта">
+              <img class="project__img project__img_hover" src="./images/react-burger.png" alt="фон под изображение проекта">
+            </a>
+            <div class="project__about">
+              <h3 class="project__name">React-burger</h3>
+                <ul class="project__links">
+                  <li><a href="https://github.com/gutmalina/react-burger" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
+                  <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://webdiploma.nomoredomains.xyz"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
+              <img class="project__img" src="./images/kier-in-sight-qB_xBCZrWdo-unsplash.jpg" alt="фон под изображение проекта">
+              <img class="project__img project__img_hover" src="./images/movies.png" alt="фон под изображение проекта">
+            </a>
+            <div class="project__about">
+              <h3 class="project__name">Movies</h3>
+              <ul class="project__links">
+                <li><a href="https://github.com/gutmalina/movies-explorer-frontend" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
+                <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://gutmalina.github.io/react-mesto-auth/"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
+              <img class="project__img" src="./images/kier-in-sight-Tuo1C7bvkv8-unsplash.jpg" alt="фон под изображение проекта">
+              <img class="project__img project__img_hover" src="./images/mesto.png" alt="фон под изображение проекта">
+            </a>
+            <div class="project__about">
+              <h3 class="project__name">Mesto</h3>
+                <ul class="project__links">
+                  <li><a href="https://github.com/gutmalina/react-mesto-auth" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
+                  <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://gutmalina.github.io/russian-travel/index.html"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
+              <img class="project__img" src="./images/laura-adai-ruDS455Iy8k-unsplash.jpg" alt="фон под изображение проекта">
+              <img class="project__img project__img_hover" src="./images/russian-travel.png" alt="фон под изображение проекта">
+            </a>
+            <div class="project__about">
+              <h3 class="project__name">Russian-travel</h3>
+                <ul class="project__links">
+                  <li><a href="https://github.com/gutmalina/russian-travel" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
+                  <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+          </div>
+          <div class="project">
+            <a href="https://gutmalina.github.io/calculator"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
+              <img class="project__img" src="./images/kari-shea-2jZoHa8Q7Fo-unsplash.jpg" alt="фон под изображение проекта">
+              <img class="project__img project__img_hover" src="./images/calculator.png" alt="фон под изображение проекта">
+            </a>
+            <div class="project__about">
+              <h3 class="project__name">Calculator</h3>
+                <ul class="project__links">
+                  <li><a href="https://github.com/gutmalina/calculator" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
+                  <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+          </div>
+        </article>
+        <span class="span span__section">&lt/section&gt</span>
+      </section>
+      <section id="skills" class="skills">
+        <article class="greeting">
+          <span class="span">&lth2&gt</span>
+          <h2 class="greeting__title">Образование и навыки</h2>
+          <span class="span">&lt/h2&gt</span>
+          <span class="span">&ltp&gt</span>
+          <p class="greeting__subtitle">Описание fdgsdfgdfggf sdfgdfgd adfgadfgadg adsfgadg adfgsdfg gfhjfdgh sfghsfh dfhsdfhsdfh dsfhsdfhd dfhsdfhsfdh sdfhsdfhsdf fhsfhsfh dfhdsfhfdh sdfhdsfh sdfhsdfh dsfhsdfh fdhsdfhs sdfhdsfh dfshsdfh sdfhsfhsdhf dfshsdfhsdfh sdfhsdfhsdhf dsfhsdfhsd dsfhsdfhsd sdfhsdfhdsf dfhsdfhsd dsfhsdfhds sdfgsdfhh sdfhsdfh dsfhsdfh dfhsdfh</p>
+          <span class="span">&lt/p&gt</span>
+        </article>
+        <article class="skills__education">
+          <ul class="skills__list greeting__subtitle">
+            <li class="skills__item">Интерфейс</li>
+            <li class="skills__item">Функциональность</li>
+            <li class="skills__item">React</li>
+            <li class="skills__item">API</li>
+          </ul>
+          <div class="skills__cards">
+            <article class="skills__card">
+              <h4 class="skills__title">WEB-developer</h4>
+              <p class="skills__date greeting__subtitle">2021-2022</p>
+              <p class="skills__subtitle greeting__subtitle">sdfhsd sdfgdsfhg sdfgdgf sdfgsdfg sdfgsdfgsd sdfgsdfgsdf sdfgsdfg</p>
+            </article>
+            <article class="skills__card">
+              <h4 class="skills__title">REACT-developer</h4>
+              <p class="skills__date greeting__subtitle">2022-2023</p>
+              <p class="skills__subtitle greeting__subtitle">sdfhsd sdfgdsfhg sdfgdgf sdfgsdfg sdfgsdfgsd sdfgsdfgsdf sdfgsdfg</p>
+            </article>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer id="footer" class="footer">
       <section class="greeting">
         <span class="span">&lth2&gt</span>
-        <h2 class="greeting__title">Моё портфолио</h2>
+        <h2 class="greeting__title">Контакты</h2>
         <span class="span">&lt/h2&gt</span>
         <span class="span">&ltp&gt</span>
-        <p class="greeting__subtitle">Описание моего портфолио</p>
+        <p class="greeting__subtitle">Описание </p>
         <span class="span">&lt/p&gt</span>
-        <span class="span span__section">&ltsection&gt</span>
       </section>
-      <section class="projects">
-        <article class="project">
-          <a href="https://gutmalina.github.io/react-burger/"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
-            <img class="project__img" src="./images/blair-connolly-JPf0qwXV2ts-unsplash.jpg" alt="фон под изображение проекта">
-            <img class="project__img project__img_hover" src="./images/react-burger.png" alt="фон под изображение проекта">
-          </a>
-          <div class="project__about">
-            <h2 class="project__name">React-burger</h2>
-              <ul class="project__links">
-                <li><a href="https://github.com/gutmalina/react-burger" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
-                <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-              </ul>
-          </div>
-        </article>
-        <article class="project">
-          <a href="https://webdiploma.nomoredomains.xyz"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
-            <img class="project__img" src="./images/kier-in-sight-qB_xBCZrWdo-unsplash.jpg" alt="фон под изображение проекта">
-            <img class="project__img project__img_hover" src="./images/movies.png" alt="фон под изображение проекта">
-          </a>
-          <div class="project__about">
-            <h2 class="project__name">Movies</h2>
-            <ul class="project__links">
-              <li><a href="https://github.com/gutmalina/movies-explorer-frontend" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
-              <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-            </ul>
-          </div>
-        </article>
-        <article class="project">
-          <a href="https://gutmalina.github.io/react-mesto-auth/"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
-            <img class="project__img" src="./images/kier-in-sight-Tuo1C7bvkv8-unsplash.jpg" alt="фон под изображение проекта">
-            <img class="project__img project__img_hover" src="./images/mesto.png" alt="фон под изображение проекта">
-          </a>
-          <div class="project__about">
-            <h2 class="project__name">Mesto</h2>
-              <ul class="project__links">
-                <li><a href="https://github.com/gutmalina/react-mesto-auth" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
-                <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-              </ul>
-          </div>
-        </article>
-        <article class="project">
-          <a href="https://gutmalina.github.io/russian-travel/index.html"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
-            <img class="project__img" src="./images/laura-adai-ruDS455Iy8k-unsplash.jpg" alt="фон под изображение проекта">
-            <img class="project__img project__img_hover" src="./images/russian-travel.png" alt="фон под изображение проекта">
-          </a>
-          <div class="project__about">
-            <h2 class="project__name">Russian-travel</h2>
-              <ul class="project__links">
-                <li><a href="https://github.com/gutmalina/russian-travel" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
-                <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-              </ul>
-          </div>
-        </article>
-        <article class="project">
-          <a href="https://gutmalina.github.io/calculator"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
-            <img class="project__img" src="./images/kari-shea-2jZoHa8Q7Fo-unsplash.jpg" alt="фон под изображение проекта">
-            <img class="project__img project__img_hover" src="./images/calculator.png" alt="фон под изображение проекта">
-          </a>
-          <div class="project__about">
-            <h2 class="project__name">Calculator</h2>
-              <ul class="project__links">
-                <li><a href="https://github.com/gutmalina/calculator" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
-                <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-              </ul>
-          </div>
-        </article>
+      <section class="contact">
+        <span class="span">&ltfooter&gt</span>
+        <div class="contact__cards">
+          <span class="contact__item greeting__subtitle">Имя</span>
+          <span class="contact__item greeting__subtitle">Гуткевич Марина</span>
+          <span class="contact__item greeting__subtitle">Email</span>
+          <span class="contact__item greeting__subtitle">gutmalina@mail.ru</span>
+          <span class="contact__item greeting__subtitle">Telegram</span>
+          <span class="contact__item greeting__subtitle">@gutmalina</span>
+        </div>
+        <span class="span">&lt/footer&gt</span>
+        <span class="span span__body">&lt/body&gt</span>
       </section>
-      <span class="span span__section">&lt/section&gt</span>
-    </main>
+      <span class="span span__lead">&lt/html&gt</span>
+    </footer>
     <script src="./index.js"></script>
 </body>
 </html>

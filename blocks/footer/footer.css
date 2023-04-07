@@ -1,6 +1,8 @@
-.main {
+.footer {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   padding-left: 2em;
   width: 100%;
+  height: 100vh;
 }

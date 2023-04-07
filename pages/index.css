@@ -2,20 +2,37 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/body/body.css);
+
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__name/header__name.css);
+@import url(../blocks/header/__initials/header__initials.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__title/header__title_bottom.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__pages/header__pages.css);
+@import url(../blocks/header/__icons/header__icons.css);
+@import url(../blocks/header/__icon/header__icon.css);
+@import url(../blocks/header/__border/header__border.css);
+
 @import url(../blocks/main/main.css);
 
 @import url(../blocks/span/span.css);
 @import url(../blocks/span/__lead/span__lead.css);
 @import url(../blocks/span/__section/span__section.css);
+@import url(../blocks/span/__body/span__body.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__span/lead__span.css);
 
 @import url(../blocks/greeting/greeting.css);
 @import url(../blocks/greeting/__title/greeting__title.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle.css);
+
+@import url(../blocks/portfolio/porfolio.css);
 
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/project/project.css);
@@ -26,3 +43,20 @@
 @import url(../blocks/project/__links/project__links.css);
 @import url(../blocks/project/__link/project__link.css);
 @import url(../blocks/project/__link/project__link_img.css);
+
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/skills/__list/skills__list.css);
+@import url(../blocks/skills/__item/skills__item.css);
+@import url(../blocks/skills/__education/skills__education.css);
+@import url(../blocks/skills/__cards/skills__cards.css);
+@import url(../blocks/skills/__card/skills__card.css);
+@import url(../blocks/skills/__title/skills__title.css);
+@import url(../blocks/skills/__subtitle/skills__subtitle.css);
+@import url(../blocks/skills/__date/skills__date.css);
+
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__cards/contact__cards.css);
+@import url(../blocks/contact/__card/contact__card.css);
+@import url(../blocks/contact/__item/contact__item.css);
