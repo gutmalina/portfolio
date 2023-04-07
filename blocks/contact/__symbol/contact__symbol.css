@@ -1,0 +1,8 @@
+.contact__symbol {
+  position: absolute;
+  top: -60vh;
+  left: 30vw;
+  z-index: -1;
+  font-size: 48rem;
+  color: rgba(255,255,255,0.04);
+}

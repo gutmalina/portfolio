@@ -54,9 +54,12 @@
 @import url(../blocks/skills/__subtitle/skills__subtitle.css);
 @import url(../blocks/skills/__date/skills__date.css);
 
+@import url(../blocks/about/about.css);
+
 @import url(../blocks/footer/footer.css);
 
 @import url(../blocks/contact/contact.css);
+@import url(../blocks/contact/__symbol/contact__symbol.css);
 @import url(../blocks/contact/__cards/contact__cards.css);
 @import url(../blocks/contact/__card/contact__card.css);
 @import url(../blocks/contact/__item/contact__item.css);
