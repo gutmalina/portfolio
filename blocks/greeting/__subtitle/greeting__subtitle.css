@@ -7,3 +7,24 @@
   position: relative;
 }
 
+.greeting__subtitle:before {
+  content: '<p>';
+  font-size: 1rem;
+   font-style: italic;
+  color: #515152;
+  transform: translateX(-1.5em);
+  position: absolute;
+  top: -1.5em;
+  left: 0;
+}
+
+.greeting__subtitle:after {
+  content: '</p>';
+  font-size: 1rem;
+   font-style: italic;
+  color: #515152;
+  transform: translateX(-1.5em);
+  position: absolute;
+  bottom: -1.5em;
+  left: 0;
+}

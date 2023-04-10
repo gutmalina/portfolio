@@ -1,6 +1,6 @@
-.contact__card {
-  width: 100%;
+.footer__contact {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   gap: 2em;
+  align-items: center;
 }

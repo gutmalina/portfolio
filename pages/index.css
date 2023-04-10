@@ -37,6 +37,7 @@
 @import url(../blocks/greeting/__title/greeting__title.css);
 @import url(../blocks/greeting/__title/greeting__title_lead.css);
 @import url(../blocks/greeting/__title/_theme/greeting__title_theme_rose.css);
+@import url(../blocks/greeting/__title/greeting__title_span.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle_lead.css);
 
@@ -63,14 +64,23 @@
 @import url(../blocks/skills/__date/skills__date.css);
 
 @import url(../blocks/about/about.css);
+@import url(../blocks/about/__cards/about__cards.css);
+@import url(../blocks/about/__card/about__card.css);
+@import url(../blocks/about/__img/about__img.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__greeting/footer__greeting.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__card/footer__card.css);
 
 @import url(../blocks/contact/contact.css);
-@import url(../blocks/contact/__symbol/contact__symbol.css);
 @import url(../blocks/contact/__cards/contact__cards.css);
-@import url(../blocks/contact/__card/contact__card.css);
 @import url(../blocks/contact/__item/contact__item.css);
 
-/* #D761A5 - rose
-#dac2f2 */
+/*
+#FFD3FF - нежно-розовый
+#D761A5 - rose
+#dac2f2 - светло-сиреневый
+#904B90 -темно-сиреневый
+*/

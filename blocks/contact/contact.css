@@ -1,5 +1,17 @@
 .contact {
   display: flex;
   flex-direction: column;
+  margin-top: 3em;
   position: relative;
+}
+
+.contact:after {
+  content: '</body>';
+  font-size: 1rem;
+  font-style: italic;
+  color: #515152;
+  transform: translateX(-1.5em);
+  position: absolute;
+  bottom: -4em;
+  left: 0;
 }

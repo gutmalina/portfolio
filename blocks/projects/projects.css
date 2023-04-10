@@ -4,6 +4,30 @@
   gap: 3%;
   transform: translateX(-1.5em);
   width: calc(100vw - 13rem - 4%);
+  position: relative;
+  margin: 2.5em 0;
+}
+
+.projects:before {
+  content: '<section>';
+  font-size: 1rem;
+  font-style: italic;
+  color: #515152;
+  transform: translateX(1.5em);
+  position: absolute;
+  top: -2.5em;
+  left: 0;
+}
+
+.projects:after {
+  content: '</section>';
+  font-size: 1rem;
+  font-style: italic;
+  color: #515152;
+  transform: translateX(1.5em);
+  position: absolute;
+  bottom: -3.5em;
+  left: 0;
 }
 
 @media screen and (max-width: 768px) {

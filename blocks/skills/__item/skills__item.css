@@ -1,4 +1,41 @@
 .skills__item {
-  border-bottom: 0.1px solid #515152;
+  border-bottom: 3px solid #515152;
   line-height: 4rem;
+  position: relative;
+}
+
+.skills__item:nth-of-type(1)::after {
+  content: '';
+  border-bottom: 3px solid #FFD3FF;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 25%;
+}
+
+.skills__item:nth-of-type(2)::after {
+  content: '';
+  border-bottom: 3px solid #dac2f2;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 50%;
+}
+
+.skills__item:nth-of-type(3):after {
+  content: '';
+  border-bottom: 3px solid #D761A5;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 75%;
+}
+
+.skills__item:nth-of-type(4):after {
+  content: '';
+  border-bottom: 3px solid #904B90;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
 }

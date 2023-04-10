@@ -1,0 +1,13 @@
+.footer__container {
+  position: relative;
+}
+
+.footer__container:after {
+  content: '</html>';
+  font-size: 1rem;
+  font-style: italic;
+  color: #515152;
+  transform: translateX(-2em);
+  position: absolute;
+  left: 0;
+}

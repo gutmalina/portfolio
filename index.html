@@ -19,10 +19,10 @@
         <p class="header__subtitle">Web developer</p>
       </article>
       <ul class="header__links header__pages">
-        <li class="header__border"><a href="#portfolio" class="header__link greeting__subtitle">Portfolio</a></li>
-        <li class="header__border"><a href="#skills" class="header__link greeting__subtitle">My Skills</a></li>
-        <li class="header__border"><a href="#about" class="header__link greeting__subtitle">About</a></li>
-        <li class="header__border"><a href="#footer" class="header__link greeting__subtitle">Contact</a></li>
+        <li class="header__border"><a href="#portfolio" class="header__link">Portfolio</a></li>
+        <li class="header__border"><a href="#skills" class="header__link">My Skills</a></li>
+        <li class="header__border"><a href="#about" class="header__link">About</a></li>
+        <li class="header__border"><a href="#footer" class="header__link">Contact</a></li>
       </ul>
       <ul class="header__links header__icons">
         <li> <a href="https://github.com/gutmalina" target="_blank"><img class="header__icon" src="./images/github-white.svg" alt="Github"></a></li>
@@ -73,13 +73,8 @@
       </section>
       <section id="portfolio" class="portfolio">
         <article class="greeting">
-          <span class="span">&lth2&gt</span>
-          <h2 class="greeting__title greeting__title_theme_rose">Моё портфолио</h2>
-          <span class="span">&lt/h2&gt</span>
-          <span class="span">&ltp&gt</span>
+          <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Моё портфолио</h2>
           <p class="greeting__subtitle">В этой галлереи представлено несколько работ, которые выполнялись и в рамках обучения и как самостоятельные pet-прокты.</p>
-          <span class="span">&lt/p&gt</span>
-          <span class="span span__section">&ltsection&gt</span>
         </article>
         <article class="projects">
           <div class="project">
@@ -147,22 +142,30 @@
                 </ul>
             </div>
           </div>
+          <div class="project">
+            <a href="https://gutmalina.github.io/Interno/"class="project__link project__link_img" alt="переход на страницу проекта" target="_blank">
+              <img class="project__img" src="./images/francesco-mazzoli-INvLInqJ-Ms-unsplash.jpg" alt="фон под изображение проекта">
+              <img class="project__img project__img_hover" src="./images/interno.png" alt="фон под изображение проекта">
+            </a>
+            <div class="project__about">
+              <h3 class="project__name">Interno</h3>
+                <ul class="project__links">
+                  <li><a href="https://github.com/gutmalina/Interno" class="project__link" alt="переход на страницу проекта" target="_blank">Код</a></li>
+                  <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+          </div>
         </article>
-        <span class="span span__section">&lt/section&gt</span>
       </section>
       <section id="skills" class="skills">
         <article class="greeting">
-          <span class="span">&lth2&gt</span>
-          <h2 class="greeting__title greeting__title_theme_rose">Образование и навыки</h2>
-          <span class="span">&lt/h2&gt</span>
-          <span class="span">&ltp&gt</span>
+          <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Образование и навыки</h2>
           <p class="greeting__subtitle">Моё знакомство с миром веб-разработки началось в 2021г. с курса Яндекс.Практикум - WEB developer. Я познакомилась с возможностями адаптивной вёрстки и работе с макетом, изучала JavaScript, узнала и попробовала React, а так же познакомилась с основами бэкенда и выложила 2 работы на сервер. В профиле можно увидеть проекты с этого курса - Mesto и Movies.
           Мне очень понравился React своей организованностью и порядком, и поэтому я решила учиться дальше и пошла на курс REACT developer. На этом курсе обучение было посвещяно React, React-Hooks, React Router v6, React Context, Redux, TypeScript, Websocket и тестированиюл just и cypress. В профиле можно увидеть проект с этого курса - React-burger.
           </p>
-          <span class="span">&lt/p&gt</span>
         </article>
         <article class="skills__education">
-          <ul class="skills__list greeting__subtitle">
+          <ul class="skills__list">
             <li class="skills__item">HTML, CSS, Figma, PixelPerfect, БЭМ</li>
             <li class="skills__item">JavaScript, TypeScript, Redux, ООП, prototype</li>
             <li class="skills__item">React, React Hooks, React Router (v5, v6)</li>
@@ -171,55 +174,55 @@
           <div class="skills__cards">
             <article class="skills__card">
               <h4 class="skills__title">Web developer</h4>
-              <p class="skills__date greeting__subtitle">2021-2022</p>
-              <p class="skills__subtitle greeting__subtitle">обучение на курсе Яндекс.Практикум - создание адаптивных веб-сайтов, простых и удобных в использовании</p>
+              <p class="skills__date">2021-2022</p>
+              <p class="skills__subtitle">обучение на курсе Яндекс.Практикум - создание адаптивных веб-сайтов, простых и удобных в использовании</p>
             </article>
             <article class="skills__card">
               <h4 class="skills__title">React developer</h4>
-              <p class="skills__date greeting__subtitle">2022-2023</p>
-              <p class="skills__subtitle greeting__subtitle">обучение на курсе Яндекс.Практикум - углубленный курс по изучению возможностей библиотеки React</p>
+              <p class="skills__date">2022-2023</p>
+              <p class="skills__subtitle">обучение на курсе Яндекс.Практикум - углубленный курс по изучению возможностей библиотеки React</p>
             </article>
           </div>
         </article>
       </section>
       <section id="about" class="about">
         <article class="greeting">
-          <span class="span">&lth2&gt</span>
-          <h2 class="greeting__title greeting__title_theme_rose">Немного о себе</h2>
-          <span class="span">&lt/h2&gt</span>
-          <span class="span">&ltp&gt</span>
+          <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Немного о себе</h2>
           <p class="greeting__subtitle">И так, я начинающий разработчик, у меня немного опыта, но очень много желания развиваться в этой сфере. Надеюсь моё усердие, организованность, самодисциплина и желание учиться помогут мне на этом пути. Мне нравиться заниматься визуалом сайта, его наполнением, хотелось бы глубже проникнуть в мир анимаций и различных эффектов. В коде люблю порядок и простоту, учусь писать униваерсальные функции и классы.
 
           Я люблю спорт, профессионально занимаюсь спортивной гимнастикой и йогой, являюсь сертифицированным тренером. Так же люблю сноуборд, велосипед и прогулки на природе. У меня есть французский бульдог, который всегда рад составить мне компанию.</p>
-          <span class="span">&lt/p&gt</span>
         </article>
-        <article class="about__cards"></article>
+        <ul class="about__cards">
+          <li class="about__card"><img class="about__img" src="./images/xx-liu-3qsrd-4-_pU-unsplash.jpg" alt=""></li>
+          <li class="about__card"><img class="about__img" src="./images/yoga1.jpeg" alt=""></li>
+          <li class="about__card"><img class="about__img" src="./images/veny.jpeg" alt=""></li>
+          <li class="about__card"><img class="about__img" src="./images/yoga2.jpeg" alt=""></li>
+          <li class="about__card"><img class="about__img" src="./images/kari-shea-2jZoHa8Q7Fo-unsplash.jpg" alt=""></li>
+          <li class="about__card"><img class="about__img" src="./images/yoga.jpeg" alt=""></li>
+        </ul>
       </section>
     </main>
     <footer id="footer" class="footer">
-      <section class="greeting">
-        <span class="span">&lth2&gt</span>
-        <h2 class="greeting__title greeting__title_theme_rose">Контакты</h2>
-        <span class="span">&lt/h2&gt</span>
-        <span class="span">&ltp&gt</span>
-        <p class="greeting__subtitle">Описание </p>
-        <span class="span">&lt/p&gt</span>
-      </section>
-      <section class="contact">
-        <div class="contact__symbol">@</div>
-        <span class="span">&ltfooter&gt</span>
-        <div class="contact__cards">
-          <span class="contact__item greeting__subtitle">Имя</span>
-          <span class="contact__item greeting__subtitle">Гуткевич Марина</span>
-          <span class="contact__item greeting__subtitle">Email</span>
-          <span class="contact__item greeting__subtitle">gutmalina@mail.ru</span>
-          <span class="contact__item greeting__subtitle">Telegram</span>
-          <span class="contact__item greeting__subtitle">@gutmalina</span>
-        </div>
-        <span class="span">&lt/footer&gt</span>
-        <span class="span span__body">&lt/body&gt</span>
-      </section>
-      <span class="span span__lead">&lt/html&gt</span>
+      <div class="footer__greeting">
+        <section class="greeting">
+          <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Контакты</h2>
+          <p class="greeting__subtitle">Описание </p>
+        </section>
+        <section class="contact">
+          <div class="contact__cards">
+              <span class="contact__item">Имя</span>
+              <span class="contact__item">Гуткевич Марина</span>
+              <span class="contact__item">Email</span>
+              <span class="contact__item">gutmalina@mail.ru</span>
+              <span class="contact__item">Telegram</span>
+              <span class="contact__item">@gutmalina</span>
+          </div>
+        </section>
+      </div>
+      <div class="footer__card">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab55b19c30ad0d1c8810a3af79ab3a3a4303424fd888d69e1782f85c48921985a&amp;source=constructor" width="100%" height="700" frameborder="0"></iframe>
+      </div>
+      <div class="footer__container"></div>
     </footer>
     <script src="./index.js"></script>
 </body>

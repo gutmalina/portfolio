@@ -1,0 +1,7 @@
+.about__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: drop-shadow(18px 11px 9px black) blur(0.4px);
+}

@@ -4,6 +4,9 @@
   line-height: 5rem;
   transition: color .4s linear;
   position: relative;
+  color: #8d8d8d;
+  font-style: normal;
+  font-size: 1.5rem;
 }
 
 .header__link:hover {
