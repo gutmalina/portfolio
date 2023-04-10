@@ -27,6 +27,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle_jump.css);
 @import url(../blocks/lead/__span/lead__span.css);
 
 @import url(../blocks/greeting/greeting.css);

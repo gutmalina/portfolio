@@ -1,0 +1,32 @@
+.lead__subtitle_jump {
+  opacity: 0;
+  transform: translateY(7em);
+  animation:
+             loadingLeadSubtitle 1.5s ease-in 2s forwards,
+             jump 2s linear infinite;
+}
+
+@keyframes jump {
+	0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    color: #8d8d8d;
+  }
+	40% {
+    transform: translateY(-30px);
+    color: #8d8d8d;
+  }
+	60% {
+    transform: translateY(-15px);
+    color: #D761A5;
+  }
+}
+
+@keyframes loadingLeadSubtitle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(1em);
+  }
+}
