@@ -2,4 +2,12 @@
   text-decoration: none;
   border: none;
   line-height: 5rem;
+  transition: color .4s linear;
+  position: relative;
 }
+
+.header__link:hover {
+  color: #FFD3FF;
+  transition: color .4s linear;
+}
+

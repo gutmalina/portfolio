@@ -5,6 +5,7 @@
   transform: rotateY(-180deg);
   opacity: 0;
   transition: transform .9s, opacity .2s cubic-bezier(1, 0, 0, 1);
+  border: 2px solid #D761A5;
 }
 
 
