@@ -1,6 +1,6 @@
 .header__border {
   position: relative;
-  border-bottom: 1px solid #515152;
+  border-bottom: 2px solid #515152;
 }
 
 .header__border:hover {
@@ -17,7 +17,7 @@
   height: 1px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -2px;
   transform: scaleX(0);
   transition: transform .4s linear;
   transform-origin: left;
