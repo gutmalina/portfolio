@@ -1,4 +1,4 @@
 .skills__title {
   margin: 0;
-  font-size: .9em;
+  font-size: clamp(18px, 3vw, 28px);
 }

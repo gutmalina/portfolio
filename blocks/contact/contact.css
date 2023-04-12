@@ -1,17 +1,25 @@
 .contact {
   display: flex;
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 80px;
   position: relative;
 }
 
 .contact:after {
   content: '</body>';
-  font-size: 1rem;
+  font-size: 16px;
   font-style: italic;
   color: #515152;
-  transform: translateX(-1.5em);
   position: absolute;
-  bottom: -4em;
-  left: 0;
+  bottom: -60px;
+  left: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .contact {
+    margin-bottom: 30px;
+  }
+  .contact:after {
+    left: -25px;
+  }
 }

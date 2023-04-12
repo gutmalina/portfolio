@@ -1,3 +1,15 @@
 .greeting__title_lead {
   display: flex;
+  font-size: clamp(32px, 10vw, 64px);
+}
+
+@media screen and (min-width: 480px) {
+  .greeting__title_lead {
+    font-size: clamp(32px, 7vw, 64px);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .greeting__title_lead {
+  }
 }

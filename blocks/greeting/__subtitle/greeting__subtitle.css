@@ -2,29 +2,38 @@
   margin: 0;
   color: #8d8d8d;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: clamp(18px, 3vw, 24px);
   white-space: pre-line;
   position: relative;
+  margin-right: 20px;
 }
 
 .greeting__subtitle:before {
   content: '<p>';
-  font-size: 1rem;
+  font-size: 16px;
    font-style: italic;
   color: #515152;
-  transform: translateX(-1.5em);
   position: absolute;
-  top: -1.5em;
-  left: 0;
+  top: -22px;
+  left: 5px;
 }
 
 .greeting__subtitle:after {
   content: '</p>';
-  font-size: 1rem;
+  font-size: 16px;
    font-style: italic;
   color: #515152;
-  transform: translateX(-1.5em);
   position: absolute;
-  bottom: -1.5em;
-  left: 0;
+  bottom: -22px;
+  left: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .greeting__subtitle::before {
+    left: -25px
+  }
+
+  .greeting__subtitle:after {
+    left: -25px;
+  }
 }

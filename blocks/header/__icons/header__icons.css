@@ -1,6 +1,6 @@
 .header__icons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0.2em;
-  height: 4.5em;
+  gap: 10px;
+  height: 140px;
 }

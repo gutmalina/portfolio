@@ -1,6 +1,6 @@
 .lead__subtitle_jump {
   opacity: 0;
-  transform: translateY(7em);
+  transform: translateY(25px);
   animation:
              loadingLeadSubtitle 1.5s ease-in 2s forwards,
              jump 2s linear infinite;
@@ -27,6 +27,6 @@
   }
   100% {
     opacity: 1;
-    transform: translateY(1em);
+    transform: translateY(10px);
   }
 }

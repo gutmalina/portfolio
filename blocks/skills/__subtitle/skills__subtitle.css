@@ -2,6 +2,6 @@
   margin: 0;
   color: #8d8d8d;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: clamp(16px, 3vw, 22px);
   white-space: pre-line;
 }

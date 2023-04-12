@@ -1,29 +1,36 @@
 .contact__cards {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 0.5em;
-  margin: 0.3em 0;
+  grid-template-columns: 0.4fr 1fr;
+  gap: 2%;
   position: relative;
 }
 
 .contact__cards:before {
   content: '<footer>';
-  font-size: 1rem;
+  font-size: 16px;
   font-style: italic;
   color: #515152;
-  transform: translateX(-1.5em);
   position: absolute;
-  top: -2.5em;
-  left: 0;
+  top: -35px;
+  left: 5px;
 }
 
 .contact__cards:after {
   content: '</footer>';
-  font-size: 1rem;
+  font-size: 16px;
   font-style: italic;
   color: #515152;
-  transform: translateX(-1.5em);
   position: absolute;
-  bottom: -2.5em;
-  left: 0;
+  bottom: -35px;
+  left: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .contact__cards::before {
+    left: -25px
+  }
+
+  .contact__cards:after {
+    left: -25px;
+  }
 }

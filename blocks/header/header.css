@@ -1,14 +1,27 @@
 .header {
-  width: 13rem;
+  width: 100%;
   background-color: #181818;
   position: fixed;
   lefT: 0;
   top: 0;
   right: auto;
   bottom: 0;
-  display: flex;
+  display: none;
   z-index: 3;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .header {
+    width: 29%;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .header {
+    width: 208px;
+  }
 }

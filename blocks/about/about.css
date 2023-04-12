@@ -1,7 +1,23 @@
 .about {
-  height: 100vh;
+  margin-right: 10px;
+  margin-bottom: 150px;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  gap: 2em;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2%;
   align-items: center;
+}
+
+@media screen and (min-width: 640px) {
+  .about {
+    margin-right: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 6%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .about {
+    height: 100vh;
+    gap: 2%;
+  }
 }

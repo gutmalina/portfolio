@@ -1,6 +1,6 @@
 .body {
   min-width: 320px;
-  max-width: 1280px;
+  max-width: 1440px;
   background: #1d1d1d;
   background-size: cover;
   display: block;
@@ -9,5 +9,16 @@
   font-size: 2rem;
   line-height: 1.4;
   color: #fff;
-  padding-left: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 480px) {
+  .body {
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .body {
+  }
 }

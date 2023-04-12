@@ -10,6 +10,7 @@
 <body class="body">
     <header class="header">
       <article class="header__name">
+        <button class="header__close"><img class="header__img" src="./images/close.svg" alt="закрыть меню"></button>
         <a href="#lead" class="header__links">
           <div class="header__initials">
             <h2 class="header__title">G</h2>
@@ -30,27 +31,32 @@
         <li><a href="https://t.me/Gutmalina" target="_blank"><img class="header__icon" src="./images/telegram-white.svg" alt="Telegram"></a></li>
       </ul>
     </header>
+    <button class="menu"><img class="menu__img" src="./images/menu.svg" alt="открыть меню"></button>
     <main class="main">
-      <section id="lead" class="lead">
+      <section id="lead" class="lead indent">
         <div class="lead__container"></div>
         <article class="greeting">
           <div class="greeting__text-cintainer">
-            <h1 class="greeting__title greeting__title_lead" aria-label="Привет, я Марина, web developer">
-              <span class="greeting__letter" aria-hidden="true">П</span>
-              <span class="greeting__letter" aria-hidden="true">р</span>
-              <span class="greeting__letter" aria-hidden="true">и</span>
-              <span class="greeting__letter" aria-hidden="true">в</span>
-              <span class="greeting__letter" aria-hidden="true">е</span>
-              <span class="greeting__letter" aria-hidden="true">т</span>
-              <span class="greeting__letter" aria-hidden="true">,</span>
-              <span class="greeting__letter" aria-hidden="true">&#160я</span>
-              <span class="greeting__letter greeting__letter_theme_rose" aria-hidden="true">&#160М</span>
-              <span class="greeting__letter" aria-hidden="true">а</span>
-              <span class="greeting__letter" aria-hidden="true">р</span>
-              <span class="greeting__letter" aria-hidden="true">и</span>
-              <span class="greeting__letter" aria-hidden="true">н</span>
-              <span class="greeting__letter" aria-hidden="true">а</span>
-              <span class="greeting__letter" aria-hidden="true">,</span>
+            <h1 class="greeting__title greeting__title_lead greeting__title_first" aria-label="Привет, я Марина, web developer">
+              <div class="greeting__letters greeting__letter_first">
+                <span class="greeting__letter" aria-hidden="true">П</span>
+                <span class="greeting__letter" aria-hidden="true">р</span>
+                <span class="greeting__letter" aria-hidden="true">и</span>
+                <span class="greeting__letter" aria-hidden="true">в</span>
+                <span class="greeting__letter" aria-hidden="true">е</span>
+                <span class="greeting__letter" aria-hidden="true">т</span>
+                <span class="greeting__letter" aria-hidden="true">,</span>
+              </div>
+              <div class="greeting__letters greeting__letter_second">
+                <span class="greeting__letter" aria-hidden="true">я</span>
+                <span class="greeting__letter greeting__letter_theme_rose" aria-hidden="true">&#160М</span>
+                <span class="greeting__letter" aria-hidden="true">а</span>
+                <span class="greeting__letter" aria-hidden="true">р</span>
+                <span class="greeting__letter" aria-hidden="true">и</span>
+                <span class="greeting__letter" aria-hidden="true">н</span>
+                <span class="greeting__letter" aria-hidden="true">а</span>
+                <span class="greeting__letter" aria-hidden="true">,</span>
+              </div >
             </h1>
             <h1 class="greeting__title greeting__title_lead">
               <span class="greeting__letter" aria-hidden="true">w</span>
@@ -71,7 +77,7 @@
         </article>
         <div class="lead__subtitle lead__subtitle_jump">Portfolio<span class="lead__span lead__subtitle_jump">&darr;</span></div>
       </section>
-      <section id="portfolio" class="portfolio">
+      <section id="portfolio" class="portfolio indent">
         <article class="greeting">
           <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Portfolio</h2>
           <p class="greeting__subtitle">Небольшая галерея моих работ. Некоторые проекты созданы в рамках учебных курсов - React-burger, Movies, Mesto, Russian-Travel. Остальные это pet-проекты - Intro, calculator.</p>
@@ -157,10 +163,10 @@
           </div>
         </article>
       </section>
-      <section id="skills" class="skills">
+      <section id="skills" class="skills indent">
         <article class="greeting">
           <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Skills</h2>
-          <p class="greeting__subtitle">Я Junior Fronted разработчик с большим желанием расти и развиваться в этой интересной сфере. Надеюсь, моё усердие, организованность, самодисциплина и желание учиться помогут мне на этом пути.
+          <p class="greeting__subtitle greeting__subtitle_skills">Я Junior Fronted разработчик с большим желанием расти и развиваться в этой интересной сфере. Надеюсь, моё усердие, организованность, самодисциплина и желание учиться помогут мне на этом пути.
           Мне нравится заниматься визуалом сайта, его наполнением, хочу больше узнать об анимациях и создании различных эффектов. В коде люблю порядок и простоту.
           В планах укрепить свои знания JavaScript, освоить второй язык программирования, обязательно попробовать Vue и Angular, так же хочу узнать JQuery, SCSS/SASS.
           И о это страшное слово backend! На учёбе это было как в тумане, поэтому обязательно надо вернуться к этому вопросу.
@@ -187,10 +193,10 @@
           </div>
         </article>
       </section>
-      <section id="about" class="about">
+      <section id="about" class="about indent">
         <article class="greeting">
           <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">About</h2>
-          <p class="greeting__subtitle">Я увлекающийся человек, который постоянно находит себе занятие. Мне нравится спорт. В прошлом я профессионально занималась спортивной гимнастикой, а сейчас это йога. Она стала не только моим хобби, но и профессией. Последние 10 лет являюсь сертифицированным тренером и преподавателем йоги.
+          <p class="greeting__subtitle greeting__subtitle_about">Я увлекающийся человек, который постоянно находит себе занятие. Мне нравится спорт. В прошлом я профессионально занималась спортивной гимнастикой, а сейчас это йога. Она стала не только моим хобби, но и профессией. Последние 10 лет являюсь сертифицированным тренером и преподавателем йоги.
           Ещё у меня есть друг, французский бульдог. Он конечно ещё тот лентяй, но гулять любит. Все парки и скверы в нашем и соседних районах хорошо нами исследованы. Природа, лес, горы, море - всё это приносит мне много энергии и ощущение счастья.</p>
         </article>
         <ul class="about__cards">
@@ -207,7 +213,7 @@
       <div class="footer__greeting">
         <section class="greeting">
           <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Contact</h2>
-          <p class="greeting__subtitle">Сейчас я активно занимаюсь поиском работы как frontend разработчик. Рассматриваю и  постоянную и временную работу. Наиболее интересны для меня предложения по разработке визуального интерфейса и функционала на React.
+          <p class="greeting__subtitle greeting__subtitle_footer">Сейчас я активно занимаюсь поиском работы как frontend разработчик. Рассматриваю и  постоянную и временную работу. Наиболее интересны для меня предложения по разработке визуального интерфейса и функционала на React.
           Однако, если у вас есть другое предложение или вопрос, пожалуйста, свяжитесь со мной.
           </p>
         </section>

@@ -1,0 +1,16 @@
+.greeting__title_first {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 480px) {
+  .greeting__title_first {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .greeting__title_first {
+    flex-direction: row;
+  }
+}

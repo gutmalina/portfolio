@@ -4,10 +4,28 @@
 
 .footer__container:after {
   content: '</html>';
-  font-size: 1rem;
+  font-size: 16px;
   font-style: italic;
   color: #515152;
-  transform: translateX(-2em);
   position: absolute;
-  left: 0;
+  top: 50px;
+  left: -5px;
+}
+
+@media screen and (min-width: 480px) {
+  .footer__container:after {
+    left: -33px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .footer__container:after {
+    left: -40px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .footer__container:after {
+    top: -20px;
+  }
 }

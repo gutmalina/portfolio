@@ -1,6 +1,5 @@
 .greeting__title {
   margin: 0;
   white-space: pre-line;
+  font-size: clamp(30px, 6vw, 48px);
 }
-
-

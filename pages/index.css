@@ -2,9 +2,12 @@
 @import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/body/body.css);
+@import url(../blocks/indent/indent.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__name/header__name.css);
+@import url(../blocks/header/__close/header__close.css);
+@import url(../blocks/header/__img/header__img.css);
 @import url(../blocks/header/__initials/header__initials.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__title/header__title_bottom.css);
@@ -16,6 +19,9 @@
 @import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__border/header__border.css);
 @import url(../blocks/header/__border/header__border_active.css);
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__img/menu__img.css);
 
 @import url(../blocks/main/main.css);
 
@@ -32,14 +38,20 @@
 
 @import url(../blocks/greeting/greeting.css);
 @import url(../blocks/greeting/__text-cintainer/greeting__text-cintainer.css);
+@import url(../blocks/greeting/__letters/greeting__letters.css);
 @import url(../blocks/greeting/__letter/greeting__letter.css);
+@import url(../blocks/greeting/__letter/greeting__letter_first.css);
 @import url(../blocks/greeting/__letter/_theme/greeting__letter_theme_rose.css);
 @import url(../blocks/greeting/__title/greeting__title.css);
 @import url(../blocks/greeting/__title/greeting__title_lead.css);
 @import url(../blocks/greeting/__title/_theme/greeting__title_theme_rose.css);
 @import url(../blocks/greeting/__title/greeting__title_span.css);
+@import url(../blocks/greeting/__title/greeting__title_first.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle_lead.css);
+@import url(../blocks/greeting/__subtitle/greeting__subtitle_skills.css);
+@import url(../blocks/greeting/__subtitle/greeting__subtitle_about.css);
+@import url(../blocks/greeting/__subtitle/greeting__subtitle_footer.css);
 
 @import url(../blocks/portfolio/porfolio.css);
 
