@@ -3,7 +3,6 @@
   max-width: 1440px;
   background: #1d1d1d;
   background-size: cover;
-  display: block;
   font-family: 'PlayfairDisplay', 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 2rem;
@@ -11,14 +10,4 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 480px) {
-  .body {
-  }
-}
-
-@media screen and (min-width: 720px) {
-  .body {
-  }
 }

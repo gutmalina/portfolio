@@ -1,0 +1,21 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../images/annie-spratt-C00JdIPgJ60-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+@media screen and (min-width: 480px) {
+  .background {
+    width: calc(100vw - 30%);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .background {
+    width: calc(100vw - 208px);
+  }
+}

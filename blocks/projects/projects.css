@@ -7,6 +7,8 @@
   margin: 60px 0 0;
   justify-items: center;
   align-items: center;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
 }
 
 .projects:before {
@@ -49,8 +51,9 @@
   }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 940px) {
   .projects {
+    -ms-grid-columns: 1fr 1fr;
     gap: 3%;
   }
 
@@ -58,4 +61,10 @@
     bottom: -10%;
   }
 
+}
+
+@media screen and (min-width: 1200px) {
+  .projects {
+    -ms-grid-columns: 1fr 1fr 1fr;
+  }
 }

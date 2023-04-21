@@ -11,7 +11,7 @@
     <header class="header">
       <article class="header__name">
         <button class="header__close"><img class="header__img" src="./images/close.svg" alt="закрыть меню"></button>
-        <a href="#lead" class="header__links">
+        <a href="#background" class="header__links">
           <div class="header__initials">
             <h2 class="header__title">G</h2>
             <h2 class="header__title header__title_bottom">M</h2>
@@ -33,50 +33,55 @@
     </header>
     <button class="menu"><img class="menu__img" src="./images/menu.svg" alt="открыть меню"></button>
     <main class="main">
-      <section id="lead" class="lead indent">
-        <div class="lead__container"></div>
-        <article class="greeting">
-          <div class="greeting__text-cintainer">
-            <h1 class="greeting__title greeting__title_lead greeting__title_first" aria-label="Привет, я Марина, web developer">
-              <div class="greeting__letters greeting__letter_first">
-                <span class="greeting__letter" aria-hidden="true">П</span>
-                <span class="greeting__letter" aria-hidden="true">р</span>
-                <span class="greeting__letter" aria-hidden="true">и</span>
-                <span class="greeting__letter" aria-hidden="true">в</span>
-                <span class="greeting__letter" aria-hidden="true">е</span>
-                <span class="greeting__letter" aria-hidden="true">т</span>
-                <span class="greeting__letter" aria-hidden="true">,</span>
-              </div>
-              <div class="greeting__letters greeting__letter_second">
-                <span class="greeting__letter" aria-hidden="true">я</span>
-                <span class="greeting__letter greeting__letter_theme_rose" aria-hidden="true">&#160М</span>
-                <span class="greeting__letter" aria-hidden="true">а</span>
-                <span class="greeting__letter" aria-hidden="true">р</span>
-                <span class="greeting__letter" aria-hidden="true">и</span>
-                <span class="greeting__letter" aria-hidden="true">н</span>
-                <span class="greeting__letter" aria-hidden="true">а</span>
-                <span class="greeting__letter" aria-hidden="true">,</span>
-              </div >
-            </h1>
-            <h1 class="greeting__title greeting__title_lead">
-              <span class="greeting__letter" aria-hidden="true">w</span>
-              <span class="greeting__letter" aria-hidden="true">e</span>
-              <span class="greeting__letter" aria-hidden="true">b</span>
-              <span class="greeting__letter" aria-hidden="true">&#160d</span>
-              <span class="greeting__letter" aria-hidden="true">e</span>
-              <span class="greeting__letter" aria-hidden="true">v</span>
-              <span class="greeting__letter" aria-hidden="true">e</span>
-              <span class="greeting__letter" aria-hidden="true">l</span>
-              <span class="greeting__letter" aria-hidden="true">o</span>
-              <span class="greeting__letter" aria-hidden="true">p</span>
-              <span class="greeting__letter" aria-hidden="true">e</span>
-              <span class="greeting__letter" aria-hidden="true">r</span>
-            </h1>
-          </div>
-          <p class="greeting__subtitle greeting__subtitle_lead">Frontend developer/ React developer</p>
-        </article>
-        <div class="lead__subtitle lead__subtitle_jump">Portfolio<span class="lead__span lead__subtitle_jump">&darr;</span></div>
-      </section>
+      <div id="background" class="background">
+        <div class="box box_bottom"></div>
+        <div class="box box_center"></div>
+        <div class="box box_top"></div>
+        <section id="lead" class="lead indent">
+          <div class="lead__container"></div>
+          <article class="greeting">
+            <div class="greeting__text-cintainer">
+              <h1 class="greeting__title greeting__title_lead greeting__title_first" aria-label="Привет, я Марина, web developer">
+                <div class="greeting__letters greeting__letter_first">
+                  <span class="greeting__letter" aria-hidden="true">П</span>
+                  <span class="greeting__letter" aria-hidden="true">р</span>
+                  <span class="greeting__letter" aria-hidden="true">и</span>
+                  <span class="greeting__letter" aria-hidden="true">в</span>
+                  <span class="greeting__letter" aria-hidden="true">е</span>
+                  <span class="greeting__letter" aria-hidden="true">т</span>
+                  <span class="greeting__letter" aria-hidden="true">,</span>
+                </div>
+                <div class="greeting__letters greeting__letter_second">
+                  <span class="greeting__letter" aria-hidden="true">я</span>
+                  <span class="greeting__letter greeting__letter_theme_rose" aria-hidden="true">&#160М</span>
+                  <span class="greeting__letter" aria-hidden="true">а</span>
+                  <span class="greeting__letter" aria-hidden="true">р</span>
+                  <span class="greeting__letter" aria-hidden="true">и</span>
+                  <span class="greeting__letter" aria-hidden="true">н</span>
+                  <span class="greeting__letter" aria-hidden="true">а</span>
+                  <span class="greeting__letter" aria-hidden="true">,</span>
+                </div >
+              </h1>
+              <h1 class="greeting__title greeting__title_lead">
+                <span class="greeting__letter" aria-hidden="true">w</span>
+                <span class="greeting__letter" aria-hidden="true">e</span>
+                <span class="greeting__letter" aria-hidden="true">b</span>
+                <span class="greeting__letter" aria-hidden="true">&#160d</span>
+                <span class="greeting__letter" aria-hidden="true">e</span>
+                <span class="greeting__letter" aria-hidden="true">v</span>
+                <span class="greeting__letter" aria-hidden="true">e</span>
+                <span class="greeting__letter" aria-hidden="true">l</span>
+                <span class="greeting__letter" aria-hidden="true">o</span>
+                <span class="greeting__letter" aria-hidden="true">p</span>
+                <span class="greeting__letter" aria-hidden="true">e</span>
+                <span class="greeting__letter" aria-hidden="true">r</span>
+              </h1>
+            </div>
+            <p class="greeting__subtitle greeting__subtitle_lead">Frontend developer/ React developer</p>
+          </article>
+          <div class="lead__subtitle lead__subtitle_jump">Portfolio<span class="lead__span lead__subtitle_jump">&darr;</span></div>
+        </section>
+      </div>
       <section id="portfolio" class="portfolio indent">
         <article class="greeting">
           <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Portfolio</h2>
@@ -84,7 +89,7 @@
         </article>
         <article class="projects">
           <div class="project">
-            <a href="https://gutmalina.github.io/react-burger/"class="project__link_img" alt="переход на страницу проекта" target="_blank">
+            <a href="https://gutmalina.github.io/react-burger/" class="project__link_img" alt="переход на страницу проекта" target="_blank">
               <img class="project__img" src="./images/blair-connolly-JPf0qwXV2ts-unsplash.jpg" alt="фон под изображение проекта">
               <img class="project__img project__img_hover" src="./images/react-burger.png" alt="фон под изображение проекта">
             </a>
@@ -97,7 +102,7 @@
             </div>
           </div>
           <div class="project">
-            <a href="https://webdiploma.nomoredomains.xyz"class="project__link_img" alt="переход на страницу проекта" target="_blank">
+            <a href="https://webdiploma.nomoredomains.xyz" class="project__link_img" alt="переход на страницу проекта" target="_blank">
               <img class="project__img" src="./images/kier-in-sight-qB_xBCZrWdo-unsplash.jpg" alt="фон под изображение проекта">
               <img class="project__img project__img_hover" src="./images/movies.png" alt="фон под изображение проекта">
             </a>
@@ -110,7 +115,7 @@
             </div>
           </div>
           <div class="project">
-            <a href="https://gutmalina.github.io/react-mesto-auth/"class="project__link_img" alt="переход на страницу проекта" target="_blank">
+            <a href="https://gutmalina.github.io/react-mesto-auth/" class="project__link_img" alt="переход на страницу проекта" target="_blank">
               <img class="project__img" src="./images/kier-in-sight-Tuo1C7bvkv8-unsplash.jpg" alt="фон под изображение проекта">
               <img class="project__img project__img_hover" src="./images/mesto.png" alt="фон под изображение проекта">
             </a>
@@ -123,7 +128,7 @@
             </div>
           </div>
           <div class="project">
-            <a href="https://gutmalina.github.io/russian-travel/index.html"class="project__link_img" alt="переход на страницу проекта" target="_blank">
+            <a href="https://gutmalina.github.io/russian-travel/index.html" class="project__link_img" alt="переход на страницу проекта" target="_blank">
               <img class="project__img" src="./images/laura-adai-ruDS455Iy8k-unsplash.jpg" alt="фон под изображение проекта">
               <img class="project__img project__img_hover" src="./images/russian-travel.png" alt="фон под изображение проекта">
             </a>
@@ -136,7 +141,7 @@
             </div>
           </div>
           <div class="project">
-            <a href="https://gutmalina.github.io/calculator"class="project__link_img" alt="переход на страницу проекта" target="_blank">
+            <a href="https://gutmalina.github.io/calculator" class="project__link_img" alt="переход на страницу проекта" target="_blank">
               <img class="project__img" src="./images/kari-shea-2jZoHa8Q7Fo-unsplash.jpg" alt="фон под изображение проекта">
               <img class="project__img project__img_hover" src="./images/calculator.png" alt="фон под изображение проекта">
             </a>
@@ -149,7 +154,7 @@
             </div>
           </div>
           <div class="project">
-            <a href="https://gutmalina.github.io/Interno/"class="project__link_img" alt="переход на страницу проекта" target="_blank">
+            <a href="https://gutmalina.github.io/Interno/" class="project__link_img" alt="переход на страницу проекта" target="_blank">
               <img class="project__img" src="./images/francesco-mazzoli-INvLInqJ-Ms-unsplash.jpg" alt="фон под изображение проекта">
               <img class="project__img project__img_hover" src="./images/interno.png" alt="фон под изображение проекта">
             </a>
