@@ -8,6 +8,8 @@ const boxBottom = document.querySelector('.box_bottom');
 const boxCenter = document.querySelector('.box_center');
 const boxtop = document.querySelector('.box_top');
 const boxList = document.querySelectorAll('.box');
+const cardsSkillsList = document.querySelectorAll('.skills__card');
+const mousePosInCard = {};
 const mousePos = {};
 let timer;
 
@@ -32,16 +34,18 @@ const closeHeaderMenu = () =>{
 menuBtn.addEventListener('click', openHeaderMenu);
 menuBtnClose.addEventListener('click', closeHeaderMenu);
 
+/** остановка движения мышки */
 const mouseStopped = () => {
   [...boxList].map(box => {
     box.style.removeProperty('background-color');
   })
-}
+};
 
+/** проступающий фон при движении мышки */
 background.addEventListener('mousemove', (e)=>{
   [...boxList].map(box => {
     box.style.setProperty('background-color', 'transparent');
-    box.style.setProperty('transition', 'background-color 1.5s ease-in');
+    box.style.setProperty('transition', 'background-color 0.7s ease-in');
   })
 
   mousePos.x = e.clientX - 150 + 'px';
@@ -56,8 +60,9 @@ background.addEventListener('mousemove', (e)=>{
 
   clearTimeout(timer);
   timer = setTimeout(mouseStopped, 3000);
-})
+});
 
+/** проступающий фон при клике */
 background.addEventListener('click', (e) => {
   mousePos.x = e.clientX - 150 + 'px';
   mousePos.y = e.clientY - 30 + 'px';
@@ -67,4 +72,30 @@ background.addEventListener('click', (e) => {
   boxBottom.style.setProperty('background-image', gradientBottom);
   boxCenter.style.setProperty('background-image', gradientCenter);
   boxtop.style.setProperty('background-image', gradientTop);
-})
+});
+
+/** фон при наведении на карточки skills */
+cardsSkillsList.forEach(card=>{
+  const cardShadow = card.querySelector('.skills__shadow')
+  let widthCard = card.offsetWidth;
+  let heightCard = card.offsetHeight;
+  card.addEventListener('mousemove', (e) => {
+
+    mousePosInCard.x = e.offsetX + 'px';
+    mousePosInCard.y = e.offsetY + 'px';
+
+    cardShadow.classList.add('skills__shadow_active');
+
+    cardShadow.style.left = mousePosInCard.x;
+    cardShadow.style.top = mousePosInCard.y;
+
+    let x = (-((e.offsetY - (widthCard/2))/3)/3).toFixed(2);
+    let y = (((e.offsetX - (heightCard/2))/3)/3).toFixed(2);
+    card.style.transform = "rotateX(" + x + "deg) rotateY(" + y + "deg)";
+  });
+
+  card.addEventListener('mouseleave', (e)=>{
+    cardShadow.classList.remove('skills__shadow_active');
+    card.style.transform = "";
+  })
+});

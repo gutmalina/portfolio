@@ -4,4 +4,8 @@
   border: 2px solid #D761A5;
   border-radius: 10px;
   box-shadow: 0 35px 75px 0 rgba(0,0,0,0.65), 0 20px 45px 0 rgba(0,0,0,0.32);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform .2s ease;
 }

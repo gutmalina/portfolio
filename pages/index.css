@@ -77,6 +77,8 @@
 @import url(../blocks/skills/__title/skills__title.css);
 @import url(../blocks/skills/__subtitle/skills__subtitle.css);
 @import url(../blocks/skills/__date/skills__date.css);
+@import url(../blocks/skills/__shadow/skills__shadow.css);
+@import url(../blocks/skills/__shadow/skills__shadow_active.css);
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__cards/about__cards.css);

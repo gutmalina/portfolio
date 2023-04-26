@@ -4,4 +4,6 @@
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   -ms-grid-columns: 1fr;
   gap: 2%;
+  transform-style: preserve-3d;
+  transform: perspective(800px);
 }

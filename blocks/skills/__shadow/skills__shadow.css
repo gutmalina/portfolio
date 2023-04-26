@@ -1,0 +1,9 @@
+.skills__shadow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  box-shadow: 0 0 100px 100px rgba(255,211,255, 20%);
+  filter: blur(10px);
+  opacity: 0;
+  transition: opacity .7s;
+}
