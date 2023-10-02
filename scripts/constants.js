@@ -27,12 +27,12 @@ const projectsArr = [
   },
   {
     id: 1,
-    name: 'map Leaflet',
+    name: 'Maxboom',
     about: '',
     img_bg: './images/flowers/pic5.jpg',
-    img_project: './images/projects/leaflet.png',
-    link_github_page: 'https://gutmalina.github.io/route-display/',
-    link_github_code: 'https://github.com/gutmalina/route-display/',
+    img_project: './images/projects/maxboom.png',
+    link_github_page: 'https://gutmalina.github.io/maxboom/',
+    link_github_code: 'https://github.com/gutmalina/maxboom',
   },
   {
     id: 2,
@@ -54,12 +54,12 @@ const projectsArr = [
   },
   {
     id: 4,
-    name: 'Github-users',
+    name: 'map Leaflet',
     about: '',
     img_bg: './images/flowers/pic8.jpg',
-    img_project: './images/projects/github-users.png',
-    link_github_page: 'https://gutmalina.github.io/search-users-github/',
-    link_github_code: 'https://github.com/gutmalina/search-users-github',
+    img_project: './images/projects/leaflet.png',
+    link_github_page: 'https://gutmalina.github.io/route-display/',
+    link_github_code: 'https://github.com/gutmalina/route-display/',
   },
   {
     id: 5,
