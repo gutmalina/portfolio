@@ -3,7 +3,16 @@
 }
 
 .greeting__letter:hover {
-  color: #FFD3FF;
+  color: #ffd3ff;
+}
+
+@-webkit-keyframes loadingLetter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes loadingLetter {

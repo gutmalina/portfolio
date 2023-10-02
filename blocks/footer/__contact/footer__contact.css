@@ -1,7 +1,10 @@
 .footer__contact {
   display: grid;
   display: -ms-grid;
+  -ms-grid-columns: 50% 2em 50%;
   grid-template-columns: repeat(2, 50%);
   gap: 2em;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }

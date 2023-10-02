@@ -3,7 +3,7 @@
 }
 
 .footer__container:after {
-  content: '</html>';
+  content: "</html>";
   font-size: 16px;
   font-style: italic;
   color: #515152;

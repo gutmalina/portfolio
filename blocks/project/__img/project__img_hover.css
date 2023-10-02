@@ -2,10 +2,15 @@
   position: absolute;
   top: 0px;
   left: 0px;
+  -webkit-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
   opacity: 0;
-  transition: transform .9s, opacity .2s cubic-bezier(1, 0, 0, 1);
-  border: 2px solid #D761A5;
+  -webkit-transition: opacity 0.2s cubic-bezier(1, 0, 0, 1),
+    -webkit-transform 0.9s;
+  transition: opacity 0.2s cubic-bezier(1, 0, 0, 1), -webkit-transform 0.9s;
+  -o-transition: transform 0.9s, opacity 0.2s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.9s, opacity 0.2s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.9s, opacity 0.2s cubic-bezier(1, 0, 0, 1),
+    -webkit-transform 0.9s;
+  border: 2px solid #d761a5;
 }
-
-

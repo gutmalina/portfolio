@@ -1,4 +1,6 @@
 .greeting__title_lead {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   font-size: clamp(32px, 10vw, 64px);
 }

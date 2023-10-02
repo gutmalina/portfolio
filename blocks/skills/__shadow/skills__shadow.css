@@ -2,8 +2,12 @@
   width: 0;
   height: 0;
   position: absolute;
-  box-shadow: 0 0 100px 100px rgba(255,211,255, 20%);
+  -webkit-box-shadow: 0 0 100px 100px rgba(255, 211, 255, 20%);
+  box-shadow: 0 0 100px 100px rgba(255, 211, 255, 20%);
+  -webkit-filter: blur(10px);
   filter: blur(10px);
   opacity: 0;
-  transition: opacity .7s;
+  -webkit-transition: opacity 0.7s;
+  -o-transition: opacity 0.7s;
+  transition: opacity 0.7s;
 }

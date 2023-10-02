@@ -1,3 +1,5 @@
 .span__lead {
+  -webkit-transform: translateX(-2em);
+  -ms-transform: translateX(-2em);
   transform: translateX(-2em);
 }

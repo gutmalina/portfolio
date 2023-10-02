@@ -1,10 +1,19 @@
 .project__img {
   width: 100%;
-  aspect-ratio: 1/.7;
+  aspect-ratio: 1/0.7;
+  -o-object-fit: cover;
   object-fit: cover;
+  -o-object-position: top;
   object-position: top;
   border-radius: 10px;
   opacity: 1;
+  -webkit-transform: rotateY(0deg);
   transform: rotateY(0deg);
-  transition: transform .9s, opacity .2s cubic-bezier(1, 0, 0, 1);
+  -webkit-transition: opacity 0.2s cubic-bezier(1, 0, 0, 1),
+    -webkit-transform 0.9s;
+  transition: opacity 0.2s cubic-bezier(1, 0, 0, 1), -webkit-transform 0.9s;
+  -o-transition: transform 0.9s, opacity 0.2s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.9s, opacity 0.2s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.9s, opacity 0.2s cubic-bezier(1, 0, 0, 1),
+    -webkit-transform 0.9s;
 }

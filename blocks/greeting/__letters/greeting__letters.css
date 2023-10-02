@@ -1,3 +1,5 @@
 .greeting__letters {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }

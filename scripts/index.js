@@ -1,18 +1,3 @@
-const letterList = document.querySelectorAll('.greeting__letter');
-const menuBtn = document.querySelector('.menu');
-const menuBtnClose = document.querySelector('.header__close');
-const header = document.querySelector('.header');
-const menuLinks = document.querySelectorAll('.header__link');
-const background = document.querySelector('.background');
-const boxBottom = document.querySelector('.box_bottom');
-const boxCenter = document.querySelector('.box_center');
-const boxtop = document.querySelector('.box_top');
-const boxList = document.querySelectorAll('.box');
-const cardsSkillsList = document.querySelectorAll('.skills__card');
-const mousePosInCard = {};
-const mousePos = {};
-let timer;
-
 /** анимация приветствия */
 letterList.forEach((letter, item)=>{
   const count = item/9

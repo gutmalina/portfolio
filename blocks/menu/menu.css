@@ -4,6 +4,8 @@
   height: 50px;
   border: none;
   display: block;
+  -ms-flex-item-align: end;
+  -ms-grid-row-align: end;
   align-self: end;
   cursor: pointer;
   margin-top: 15px;

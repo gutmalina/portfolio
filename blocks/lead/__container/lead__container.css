@@ -1,11 +1,16 @@
 .lead__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
 }
 
 .lead__container:before {
-  content: '<html>';
+  content: "<html>";
   font-size: 16px;
   font-style: italic;
   color: #515152;
@@ -15,7 +20,7 @@
 }
 
 .lead__container:after {
-  content: '<body>';
+  content: "<body>";
   font-size: 16px;
   font-style: italic;
   color: #515152;
@@ -25,7 +30,7 @@
 
 @media screen and (min-width: 480px) {
   .lead__container::before {
-    left: -33px
+    left: -33px;
   }
 
   .lead__container:after {
@@ -35,6 +40,6 @@
 
 @media screen and (min-width: 640px) {
   .lead__container::before {
-    left: -40px
+    left: -40px;
   }
 }

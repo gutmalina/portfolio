@@ -3,9 +3,13 @@
   font-size: clamp(18px, 3vw, 24px);
   color: #8d8d8d;
   padding: 10px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-style: normal;
-  border: 2px solid #D761A5;
+  border: 2px solid #d761a5;
   border-radius: 10px;
-  box-shadow: 0 35px 75px 0 rgba(0,0,0,0.65), 0 20px 45px 0 rgba(0,0,0,0.32);
+  -webkit-box-shadow: 0 35px 75px 0 rgba(0, 0, 0, 0.65),
+    0 20px 45px 0 rgba(0, 0, 0, 0.32);
+  box-shadow: 0 35px 75px 0 rgba(0, 0, 0, 0.65),
+    0 20px 45px 0 rgba(0, 0, 0, 0.32);
 }

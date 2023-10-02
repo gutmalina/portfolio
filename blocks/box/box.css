@@ -3,5 +3,7 @@
   height: 100vh;
   position: absolute;
   background-color: #1d1d1d;
+  -webkit-transition: background-color 1.5s ease-in;
+  -o-transition: background-color 1.5s ease-in;
   transition: background-color 1.5s ease-in;
 }

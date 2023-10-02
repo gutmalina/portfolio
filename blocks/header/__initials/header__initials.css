@@ -2,5 +2,7 @@
   position: relative;
   font-size: 55px;
   margin-bottom: 27px;
+  -webkit-transform: translateX(-22px);
+  -ms-transform: translateX(-22px);
   transform: translateX(-22px);
 }

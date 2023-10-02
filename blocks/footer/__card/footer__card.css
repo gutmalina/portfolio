@@ -1,3 +1,5 @@
 .footer__card {
+  -ms-flex-item-align: self-end;
+  -ms-grid-row-align: self-end;
   align-self: self-end;
 }
