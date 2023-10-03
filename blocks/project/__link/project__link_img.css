@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.project__link_img:hover .project__img {
+.project__link_img:hover .project__img{
   opacity: 0;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);

@@ -1,0 +1,5 @@
+.project__subtitle_visible {
+  transform: translateY(0);
+  visibility: visible;
+  transition: transform 1s, visibility 1s ease-in-out;
+}

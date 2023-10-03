@@ -1,0 +1,16 @@
+.project__subtitle {
+  display: inline-block;
+  position: absolute;
+  color: #181818;
+  font-style: italic;
+  font-weight: bold;
+  font-size: clamp(18px, 3vw, 24px);
+  white-space: pre-line;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  transform: translateY(110%);
+  visibility: hidden;
+  transition: transform 1s, visibility 1s ease-in-out;
+  height: -webkit-fill-available;
+}

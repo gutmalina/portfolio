@@ -163,15 +163,18 @@
     <template id="project">
       <div class="project">
         <a href="" class="project__link_img" alt="переход на страницу проекта" target="_blank">
-          <img class="project__img project__img_bg" src="" alt="фон под изображение проекта">
-          <img class="project__img project__img_hover" src="" alt="фон под изображение проекта">
+          <div class="project__screensaver project__img">
+            <img class="project__img project__img_bg" src="" alt="фон под изображение проекта">
+            <p class="project__subtitle"></p>
+          </div>
+          <img class="project__img project__img_hover" src="" alt="изображение проекта">
         </a>
-        <div class="project__about">
-          <h3 class="project__name"></h3>
-            <ul class="project__links">
-              <li><a href="" class="project__link project__link_code" alt="переход на страницу проекта" target="_blank">Код</a></li>
-              <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-            </ul>
+        <div class="project__sign">
+          <h3 class="project__about project__link">О проекте</h3>
+          <ul class="project__links">
+            <li><a href="" class="project__link project__link_code" alt="переход на страницу проекта" target="_blank">Код</a></li>
+            <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
+          </ul>
         </div>
       </div>
     </template>

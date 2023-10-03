@@ -18,8 +18,9 @@ const containerProjects = document.querySelector('.projects')
 const projectsArr = [
   {
     id: 0,
+    type: 'lead',
     name: 'Landing CyberGig',
-    about: '',
+    about: 'Landing Page для CyberGid - приложение даёт вам возможность во время прогулок по городу слушать интересные факты и рассказы о данном месте',
     img_bg: './images/flowers/pic4.jpg',
     img_project: './images/projects/cybergid.png',
     link_github_page: 'https://gutmalina.github.io/cybergid-landing/',
@@ -27,8 +28,9 @@ const projectsArr = [
   },
   {
     id: 1,
+    type: 'lead',
     name: 'Maxboom',
-    about: '',
+    about: 'Frontend часть сайта магазина электронной техники Maxboom',
     img_bg: './images/flowers/pic5.jpg',
     img_project: './images/projects/maxboom.png',
     link_github_page: 'https://gutmalina.github.io/maxboom/',
@@ -36,8 +38,9 @@ const projectsArr = [
   },
   {
     id: 2,
+    type: 'lead',
     name: 'АиБ Цифровизация',
-    about: '',
+    about: 'Frontend часть сайта для компании АиБ Цифровизация',
     img_bg: './images/flowers/pic6.jpg',
     img_project: './images/projects/aib.png',
     link_github_page: 'https://gutmalina.github.io/aib/',
@@ -45,6 +48,7 @@ const projectsArr = [
   },
   {
     id: 3,
+    type: 'test',
     name: 'WhatsApp-Api',
     about: '',
     img_bg: './images/flowers/pic7.jpg',
@@ -54,6 +58,7 @@ const projectsArr = [
   },
   {
     id: 4,
+    type: 'test',
     name: 'map Leaflet',
     about: '',
     img_bg: './images/flowers/pic8.jpg',
@@ -63,6 +68,7 @@ const projectsArr = [
   },
   {
     id: 5,
+    type: 'lead',
     name: 'Simple-reports',
     about: '',
     img_bg: './images/flowers/pic9.jpg',
@@ -72,6 +78,7 @@ const projectsArr = [
   },
   {
     id: 6,
+    type: 'learn',
     name: 'React-burger',
     about: '',
     img_bg: './images/flowers/pic1.jpg',
@@ -81,6 +88,7 @@ const projectsArr = [
   },
   {
     id: 7,
+    type: 'learn',
     name: 'Mesto',
     about: '',
     img_bg: './images/flowers/pic2.jpg',
@@ -90,6 +98,7 @@ const projectsArr = [
   },
   {
     id: 8,
+    type: 'learn',
     name: 'Russian-travel',
     about: '',
     img_bg: './images/flowers/pic3.jpg',

@@ -60,13 +60,17 @@
 
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/project/project.css);
+@import url(../blocks/project/__screensaver/project__screensaver.css);
 @import url(../blocks/project/__img/project__img.css);
 @import url(../blocks/project/__img/project__img_hover.css);
+@import url(../blocks/project/__sign/project__sign.css);
 @import url(../blocks/project/__about/project__about.css);
 @import url(../blocks/project/__name/project__name.css);
 @import url(../blocks/project/__links/project__links.css);
 @import url(../blocks/project/__link/project__link.css);
 @import url(../blocks/project/__link/project__link_img.css);
+@import url(../blocks/project/__subtitle/project__subtitle.css);
+@import url(../blocks/project/__subtitle/_visible/project__subtitle_visible.css);
 
 @import url(../blocks/skills/skills.css);
 @import url(../blocks/skills/__list/skills__list.css);
