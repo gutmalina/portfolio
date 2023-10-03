@@ -9,8 +9,14 @@
   margin: 0;
   padding: 10px;
   text-align: center;
-  transform: translateY(110%);
+  -webkit-transform: translateY(110%);
+      -ms-transform: translateY(110%);
+          transform: translateY(110%);
   visibility: hidden;
+  -webkit-transition: visibility 1s ease-in-out, -webkit-transform 1s;
+  transition: visibility 1s ease-in-out, -webkit-transform 1s;
+  -o-transition: transform 1s, visibility 1s ease-in-out;
   transition: transform 1s, visibility 1s ease-in-out;
+  transition: transform 1s, visibility 1s ease-in-out, -webkit-transform 1s;
   height: -webkit-fill-available;
 }

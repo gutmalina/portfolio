@@ -1,5 +1,11 @@
 .project__subtitle_visible {
-  transform: translateY(0);
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
   visibility: visible;
+  -webkit-transition: visibility 1s ease-in-out, -webkit-transform 1s;
+  transition: visibility 1s ease-in-out, -webkit-transform 1s;
+  -o-transition: transform 1s, visibility 1s ease-in-out;
   transition: transform 1s, visibility 1s ease-in-out;
+  transition: transform 1s, visibility 1s ease-in-out, -webkit-transform 1s;
 }
