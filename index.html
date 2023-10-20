@@ -29,7 +29,7 @@
         <li> <a href="https://github.com/gutmalina" target="_blank"><img class="header__icon" src="./images/github-white.svg" alt="Github"></a></li>
         <li> <a href="https://codepen.io/gutmalina" target="_blank"><img class="header__icon" src="./images/codepen-white.svg" alt="Codepen"></a></li>
         <li><a href="https://www.linkedin.com/in/gutmalina/" target="_blank"><img class="header__icon" src="./images/linkedin-white.svg" alt="Linkedin"></a></li>
-        <li><a href="https://t.me/Gutmalina" target="_blank"><img class="header__icon" src="./images/telegram-white.svg" alt="Telegram"></a></li>
+        <li><a href="https://t.me/Gutmalina" target="_blank"><img class="header__icon" src="./images/icon_telegram.svg" alt="Telegram"></a></li>
       </ul>
     </header>
     <button class="menu"><img class="menu__img" src="./images/menu.svg" alt="открыть меню"></button>
@@ -171,21 +171,33 @@
       </div>
       <div class="footer__container"></div>
     </footer>
+    <div class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <section class="popup__container popup__container_video">
+            <img src="" alt="" class="popup__gif">
+          </section>
+          <section class="popup__container popup__container_about">
+            <h2 class="title title__popup"></h2>
+            <p class="subtitle subtitle__popup"></p>
+            <ul class="list list__popup">
+              <li><a href="" target="_blank" class="link link__icon link__icon_www"></a></li>
+              <li><a href="" target="_blank" class="link link__icon link__icon_github"></a></li>
+              <li><a href="https://t.me/Gutmalina" target="_blank" class="link link__icon link__icon_telegram"></a></li>
+            </ul>
+          </section>
+        </div>
+        <button class="btn btn__close"></button>
+      </div>
+    </div>
     <template id="project">
       <div class="project">
-        <a href="" class="project__link_img" alt="переход на страницу проекта" target="_blank">
+        <div class="project__link_img">
           <div class="project__screensaver project__img">
             <img class="project__img project__img_bg" src="" alt="фон под изображение проекта">
             <p class="project__subtitle"></p>
           </div>
           <img class="project__img project__img_hover" src="" alt="изображение проекта">
-        </a>
-        <div class="project__sign">
-          <h3 class="project__about project__link">О проекте</h3>
-          <ul class="project__links">
-            <li><a href="" class="project__link project__link_code" alt="переход на страницу проекта" target="_blank">Код</a></li>
-            <li><a href="https://github.com/gutmalina" class="project__link" alt="переход на аккаунт GitHub" target="_blank">GitHub</a></li>
-          </ul>
         </div>
       </div>
     </template>

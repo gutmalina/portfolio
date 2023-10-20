@@ -1,0 +1,6 @@
+.btn__profile {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 8px 30px;
+}

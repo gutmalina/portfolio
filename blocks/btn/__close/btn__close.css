@@ -1,0 +1,10 @@
+.btn__close {
+  background-image: url(../../../images/icon_close.svg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}

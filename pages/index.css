@@ -5,7 +5,21 @@
 @import url(../blocks/indent/indent.css);
 
 @import url(../blocks/btn/btn.css);
-@import url(../blocks/btn/btn__profile/btn__profile.css);
+@import url(../blocks/btn/__profile/btn__profile.css);
+@import url(../blocks/btn/__close/btn__close.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/__popup/title__popup.css);
+
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/subtitle/__popup/subtitle__popup.css);
+
+@import url(../blocks/list/__popup/list__popup.css);
+
+@import url(../blocks/link/link__icon/link__icon.css);
+@import url(../blocks/link/link__icon/_www/link__icon_www.css);
+@import url(../blocks/link/link__icon/_github/link__icon_github.css);
+@import url(../blocks/link/link__icon/_telegram/link__icon_telegram.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__name/header__name.css);
@@ -102,3 +116,10 @@
 @import url(../blocks/contact/__cards/contact__cards.css);
 @import url(../blocks/contact/__item/contact__item.css);
 
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__opened/popup__opened.css);
+@import url(../blocks/popup/__wrapper/popup__wrapper.css);
+@import url(../blocks/popup/__content/popup__content.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__container/_about/popup__container_about.css);
+@import url(../blocks/popup/__gif/popup__gif.css);

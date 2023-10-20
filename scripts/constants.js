@@ -12,6 +12,8 @@ const cardsSkillsList = document.querySelectorAll('.skills__card');
 const mousePosInCard = {};
 const mousePos = {};
 let timer;
+const popup = document.querySelector('.popup');
+const btnClose = document.querySelector('.btn__close');
 const btnProfile = Array.from(document.querySelectorAll('.btn__profile'));
 const projectTemplate = document.querySelector('#project').content;
 const containerLeadProjects = document.querySelector('#lead-project');
@@ -25,6 +27,7 @@ const projectsArr = [
     about: 'Landing Page для CyberGid - приложение даёт вам возможность во время прогулок по городу слушать интересные факты и рассказы о данном месте',
     img_bg: './images/flowers/pic4.jpg',
     img_project: './images/projects/cybergid.png',
+    gif: './images/gif/cybergid_landing.gif',
     link_github_page: 'https://gutmalina.github.io/cybergid-landing/',
     link_github_code: 'https://github.com/gutmalina/cybergid-landing',
   },
@@ -35,6 +38,7 @@ const projectsArr = [
     about: 'Frontend часть сайта магазина электронной техники Maxboom',
     img_bg: './images/flowers/pic5.jpg',
     img_project: './images/projects/maxboom.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/maxboom/',
     link_github_code: 'https://github.com/gutmalina/maxboom',
   },
@@ -45,6 +49,7 @@ const projectsArr = [
     about: 'Frontend часть сайта для компании АиБ Цифровизация',
     img_bg: './images/flowers/pic6.jpg',
     img_project: './images/projects/aib.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/aib/',
     link_github_code: 'https://github.com/gutmalina/aib',
   },
@@ -55,6 +60,7 @@ const projectsArr = [
     about: '',
     img_bg: './images/flowers/pic7.jpg',
     img_project: './images/projects/green-api.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/green-api/',
     link_github_code: 'https://github.com/gutmalina/green-api/',
   },
@@ -65,6 +71,7 @@ const projectsArr = [
     about: '',
     img_bg: './images/flowers/pic8.jpg',
     img_project: './images/projects/leaflet.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/route-display/',
     link_github_code: 'https://github.com/gutmalina/route-display/',
   },
@@ -75,6 +82,7 @@ const projectsArr = [
     about: '',
     img_bg: './images/flowers/pic9.jpg',
     img_project: './images/projects/simple-reports.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/simple-reports/',
     link_github_code: 'https://github.com/gutmalina/simple-reports',
   },
@@ -85,6 +93,7 @@ const projectsArr = [
     about: '',
     img_bg: './images/flowers/pic1.jpg',
     img_project: './images/projects/react-burger.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/react-burger/',
     link_github_code: 'https://github.com/gutmalina/react-burger',
   },
@@ -95,6 +104,7 @@ const projectsArr = [
     about: '',
     img_bg: './images/flowers/pic2.jpg',
     img_project: './images/projects/mesto.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/react-mesto-auth/',
     link_github_code: 'https://github.com/gutmalina/react-mesto-auth',
   },
@@ -105,6 +115,7 @@ const projectsArr = [
     about: '',
     img_bg: './images/flowers/pic3.jpg',
     img_project: './images/projects/russian-travel.png',
+    gif: '',
     link_github_page: 'https://gutmalina.github.io/russian-travel/index.html',
     link_github_code: 'https://github.com/gutmalina/russian-travel',
   }

@@ -1,0 +1,6 @@
+.list__popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}

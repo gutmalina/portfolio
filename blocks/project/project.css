@@ -4,6 +4,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .project:nth-of-type(1) {

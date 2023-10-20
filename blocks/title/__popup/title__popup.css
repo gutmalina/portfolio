@@ -1,0 +1,4 @@
+.title__popup {
+  margin-bottom: 20px;
+  font-size: clamp(30px, 4vw, 40px);
+}

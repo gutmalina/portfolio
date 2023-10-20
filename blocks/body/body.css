@@ -17,11 +17,32 @@
   flex-direction: column;
   --bg-element: #2b2b2b;
   --text-primary: #8d8d8d;
+  --text-secondary: #fff;
+  --title-primary: #FFD3FF;
   --border-primary: #d761a5;
+  --bg-primary: #1d1d1d;
+  --bg-secondary: #181818;
+}
+
+a {
+  color: var(--text-secondary);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 button {
   padding: 0;
   border: none;
   cursor: pointer;
+}
+
+h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

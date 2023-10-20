@@ -15,9 +15,29 @@ const closeHeaderMenu = () =>{
   menuLinks.forEach((menuLink=>menuLink.removeEventListener('click', closeHeaderMenu)))
 };
 
+const openPopup = (project) => {
+  popup.querySelector('.popup__gif').src = project.gif
+  popup.querySelector('.title__popup').innerHTML = project.name
+  popup.querySelector('.subtitle__popup').innerHTML = project.about
+  popup.querySelector('.link__icon_www').href = project.link_github_page
+  popup.querySelector('.link__icon_github').href = project.link_github_code
+  popup.addEventListener('mousedown', closePopup)
+  btnClose.addEventListener('mousedown', closePopup);
+  popup.classList.add('popup__opened')
+}
 
-menuBtn.addEventListener('click', openHeaderMenu);
-menuBtnClose.addEventListener('click', closeHeaderMenu);
+const closePopup = () => {
+  popup.removeEventListener('mousedown', closePopup)
+  btnClose.removeEventListener('mousedown', closePopup)
+  popup.classList.remove('popup__opened')
+}
+
+/** закрыть попап по Escape */
+const closeEscPopup = (e) => {
+  if (e.key === "Escape") {
+    closePopup();
+  }
+};
 
 /** остановка движения мышки */
 const mouseStopped = () => {
@@ -85,6 +105,10 @@ cardsSkillsList.forEach(card=>{
   })
 });
 
+
+menuBtn.addEventListener('click', openHeaderMenu);
+menuBtnClose.addEventListener('click', closeHeaderMenu);
+document.addEventListener("keydown", (e) => closeEscPopup(e));
 /** показать все проекты */
 btnProfile.map(item=>
   item.addEventListener('mousedown', (e)=> {
@@ -92,4 +116,3 @@ btnProfile.map(item=>
   const projects = Array.from(container.querySelectorAll('.project'))
   projects.map(item=> item.style.display = 'flex')
 }))
-

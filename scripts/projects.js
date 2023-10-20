@@ -1,13 +1,9 @@
 const createProject = (item) => {
   const project = projectTemplate.cloneNode(true);
-  const about = project.querySelector('.project__subtitle')
   project.querySelector('.project__img_bg').src = item.img_bg
   project.querySelector('.project__img_hover').src = item.img_project
-  project.querySelector('.project__link_img').href = item.link_github_page
-  project.querySelector('.project__link_code').href = item.link_github_code
-  about.innerHTML = item.about
-  project.querySelector('.project__about').addEventListener('click', ()=>{
-  about.classList.toggle('project__subtitle_visible')
+  project.querySelector('.project__link_img').addEventListener('mousedown', ()=>{
+    openPopup(item)
   })
 
   return project;
