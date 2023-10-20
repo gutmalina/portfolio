@@ -1,0 +1,11 @@
+.btn {
+  font-size: clamp(18px, 3vw, 24px);
+  border: 2px solid var(--border-primary);
+  border-radius: 10px;
+  background-color: var(--bg-element);
+  color: var(--text-primary);
+  -webkit-box-shadow: 0 35px 75px 0 rgba(0, 0, 0, 0.65),
+                      0 20px 45px 0 rgba(0, 0, 0, 0.32);
+          box-shadow: 0 35px 75px 0 rgba(0, 0, 0, 0.65),
+                      0 20px 45px 0 rgba(0, 0, 0, 0.32);
+}

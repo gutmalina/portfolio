@@ -5,7 +5,7 @@
   gap: 1%;
   width: calc(100% - 10px);
   position: relative;
-  margin: 60px 0 0;
+  margin: 60px 0 10px;
   justify-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -31,7 +31,7 @@
   font-style: italic;
   color: #515152;
   position: absolute;
-  bottom: -7%;
+  bottom: -80px;
   left: 5px;
 }
 
@@ -49,20 +49,12 @@
   .projects {
     gap: 1%;
   }
-
-  .projects:after {
-    bottom: -6%;
-  }
 }
 
 @media screen and (min-width: 940px) {
   .projects {
     -ms-grid-columns: 1fr 1fr;
     gap: 3%;
-  }
-
-  .projects:after {
-    bottom: -10%;
   }
 }
 

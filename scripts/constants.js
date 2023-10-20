@@ -12,13 +12,15 @@ const cardsSkillsList = document.querySelectorAll('.skills__card');
 const mousePosInCard = {};
 const mousePos = {};
 let timer;
-
+const btnProfile = Array.from(document.querySelectorAll('.btn__profile'));
 const projectTemplate = document.querySelector('#project').content;
-const containerProjects = document.querySelector('.projects')
+const containerLeadProjects = document.querySelector('#lead-project');
+const containerTestProjects = document.querySelector('#test-project');
+const containerLearnProjects = document.querySelector('#learn-project');
 const projectsArr = [
   {
     id: 0,
-    type: 'lead',
+    type: 'lead-project',
     name: 'Landing CyberGig',
     about: 'Landing Page для CyberGid - приложение даёт вам возможность во время прогулок по городу слушать интересные факты и рассказы о данном месте',
     img_bg: './images/flowers/pic4.jpg',
@@ -28,7 +30,7 @@ const projectsArr = [
   },
   {
     id: 1,
-    type: 'lead',
+    type: 'lead-project',
     name: 'Maxboom',
     about: 'Frontend часть сайта магазина электронной техники Maxboom',
     img_bg: './images/flowers/pic5.jpg',
@@ -38,7 +40,7 @@ const projectsArr = [
   },
   {
     id: 2,
-    type: 'lead',
+    type: 'lead-project',
     name: 'АиБ Цифровизация',
     about: 'Frontend часть сайта для компании АиБ Цифровизация',
     img_bg: './images/flowers/pic6.jpg',
@@ -48,7 +50,7 @@ const projectsArr = [
   },
   {
     id: 3,
-    type: 'test',
+    type: 'test-project',
     name: 'WhatsApp-Api',
     about: '',
     img_bg: './images/flowers/pic7.jpg',
@@ -58,7 +60,7 @@ const projectsArr = [
   },
   {
     id: 4,
-    type: 'test',
+    type: 'test-project',
     name: 'map Leaflet',
     about: '',
     img_bg: './images/flowers/pic8.jpg',
@@ -68,7 +70,7 @@ const projectsArr = [
   },
   {
     id: 5,
-    type: 'lead',
+    type: 'lead-project',
     name: 'Simple-reports',
     about: '',
     img_bg: './images/flowers/pic9.jpg',
@@ -78,7 +80,7 @@ const projectsArr = [
   },
   {
     id: 6,
-    type: 'learn',
+    type: 'learn-project',
     name: 'React-burger',
     about: '',
     img_bg: './images/flowers/pic1.jpg',
@@ -88,7 +90,7 @@ const projectsArr = [
   },
   {
     id: 7,
-    type: 'learn',
+    type: 'learn-project',
     name: 'Mesto',
     about: '',
     img_bg: './images/flowers/pic2.jpg',
@@ -98,7 +100,7 @@ const projectsArr = [
   },
   {
     id: 8,
-    type: 'learn',
+    type: 'learn-project',
     name: 'Russian-travel',
     about: '',
     img_bg: './images/flowers/pic3.jpg',

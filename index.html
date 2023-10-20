@@ -80,15 +80,26 @@
             </div>
             <p class="greeting__subtitle greeting__subtitle_lead">Frontend developer/ React developer</p>
           </article>
-          <div class="lead__subtitle lead__subtitle_jump">Portfolio<span class="lead__span lead__subtitle_jump">&darr;</span></div>
+          <a href="#portfolio" class="lead__subtitle lead__subtitle_jump">Portfolio<span class="lead__span lead__subtitle_jump">&darr;</span></a>
         </section>
       </div>
       <section id="portfolio" class="portfolio indent">
         <article class="greeting">
           <h2 class="greeting__title greeting__title_theme_rose greeting__title_span">Portfolio</h2>
-          <p class="greeting__subtitle">Небольшая галерея моих работ - это проекты созданные в рамках учебных курсов, тестовые задания и pet-проекты.</p>
+          <p class="greeting__subtitle">Реализованные проекты (startup, commercial, pet)</p>
+          <div id="lead-project" class="projects"></div>
+          <button class="btn btn__profile" name="lead-project">Еще</button>
         </article>
-        <article class="projects"></article>
+        <article class="greeting">
+          <p class="greeting__subtitle">Тестовые задания</p>
+          <div id="test-project" class="projects"></div>
+          <button class="btn btn__profile" name="test-project">Еще</button>
+        </article>
+        <article class="greeting">
+          <p class="greeting__subtitle">Учебные проекты</p>
+          <div id="learn-project" class="projects"></div>
+          <button class="btn btn__profile" name="learn-project">Еще</button>
+        </article>
       </section>
       <section id="skills" class="skills indent">
         <article class="greeting">
