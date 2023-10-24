@@ -1,0 +1,4 @@
+.list__popup_text {
+  overflow: hidden;
+  justify-content: flex-end;
+}

@@ -1,0 +1,6 @@
+.popup__group-list {
+  display: grid;
+  grid-template-columns: max-content 0.9fr;
+  justify-content: space-between;
+  align-items: center;
+}

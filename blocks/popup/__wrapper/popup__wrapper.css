@@ -1,11 +1,13 @@
 .popup__wrapper {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr -webkit-max-content;
-  -ms-grid-columns: 1fr max-content;
-  grid-template-columns: 1fr -webkit-max-content;
-  grid-template-columns: 1fr max-content;
   max-width: 90%;
+  height: max-content;
+  width: max-content;
+  max-height: 80vh;
+  display: grid;
+  grid-template-columns: 0.9fr max-content;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5vh;
 }
 
 @media screen and (min-width: 480px) {
@@ -17,5 +19,17 @@
 @media screen and (min-width: 720px) {
   .popup__wrapper {
     max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .popup__wrapper {
+    max-width: 60%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .popup__wrapper {
+    max-width: 50%;
   }
 }
