@@ -13,10 +13,8 @@
 
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/__popup/subtitle__popup.css);
-@import url(../blocks/subtitle/__popup/_li/subtitle__popup_li.css);
 
 @import url(../blocks/list/__popup/list__popup.css);
-@import url(../blocks/list/__popup/_text/list__popup_text.css);
 
 @import url(../blocks/link/link__icon/link__icon.css);
 @import url(../blocks/link/link__icon/_www/link__icon_www.css);

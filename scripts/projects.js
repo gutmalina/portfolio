@@ -11,18 +11,7 @@ const createProject = (item) => {
 
 const renderInitialProjects = (element) => {
   const project = createProject(element)
-  switch(element.type){
-    case 'lead-project':
-      containerLeadProjects.appendChild(project)
-      break;
-    case 'test-project':
-      containerTestProjects.appendChild(project)
-      break;
-    case 'learn-project':
-      containerLearnProjects.appendChild(project)
-      break;
-    default: return;
-  }
+  containerProjects.appendChild(project)
 };
 
 const render = () => {
