@@ -117,5 +117,16 @@ const projectsArr = [
     gif: './images/gif/russian-travel.gif',
     link_github_page: 'https://gutmalina.github.io/russian-travel/index.html',
     link_github_code: 'https://github.com/gutmalina/russian-travel',
+  },
+  {
+    id: 9,
+    type: 'test-project',
+    name: 'Google-books',
+    about: 'Приложение для поиска книг в библиотеке Google. Доступен поиск по ключевым словам, сортировка и дополнительная информация о найденных книгах. Выполнена адаптивная вёрстка, использован React + Redux + TypeScript',
+    img_bg: './images/flowers/pic10.jpg',
+    img_project: './images/projects/books.png',
+    gif: './images/gif/google-books.gif',
+    link_github_page: 'https://gutmalina.github.io/google-books/',
+    link_github_code: 'https://github.com/gutmalina/google-books',
   }
 ]
