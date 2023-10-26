@@ -3,8 +3,8 @@
   aspect-ratio: 1/0.7;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: top;
-  object-position: top;
+  -o-object-position: center;
+  object-position: center;
   border-radius: 10px;
   opacity: 1;
   -webkit-transform: rotateY(0deg);
