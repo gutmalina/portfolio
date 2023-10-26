@@ -14,8 +14,22 @@ const renderInitialProjects = (element) => {
   containerProjects.appendChild(project)
 };
 
-const render = () => {
-  projectsArr.forEach(renderInitialProjects);
+const render = (projects) => {
+  projects.forEach(renderInitialProjects);
 }
 
-render();
+render(projectsArr);
+
+const filterProjects = (type) => {
+  const projectRendered = Array.from(document.querySelectorAll('.project'))
+  projectRendered.map(item=> item.remove())
+  if(type === "All projects"){
+    render(projectsArr);
+  }else{
+    const arr = projectsArr.filter(project=> project.type === type)
+    render(arr)
+  }
+}
+
+typeProjects.map(item=>
+  item.addEventListener('click', (e) => filterProjects(e.target.innerHTML)))

@@ -105,14 +105,7 @@ cardsSkillsList.forEach(card=>{
   })
 });
 
-
 menuBtn.addEventListener('click', openHeaderMenu);
 menuBtnClose.addEventListener('click', closeHeaderMenu);
 document.addEventListener("keydown", (e) => closeEscPopup(e));
-/** показать все проекты */
-btnProfile.map(item=>
-  item.addEventListener('mousedown', (e)=> {
-  const container = document.querySelector(`#${e.target.name}`)
-  const projects = Array.from(container.querySelectorAll('.project'))
-  projects.map(item=> item.style.display = 'flex')
-}))
+

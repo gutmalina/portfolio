@@ -14,13 +14,13 @@ const mousePos = {};
 let timer;
 const popup = document.querySelector('.popup');
 const btnClose = document.querySelector('.btn__close');
-const btnProfile = Array.from(document.querySelectorAll('.btn__profile'));
+const typeProjects = Array.from(document.querySelectorAll('.greeting__li'));
 const projectTemplate = document.querySelector('#project').content;
 const containerProjects = document.querySelector('#projects');
 const projectsArr = [
   {
     id: 0,
-    type: 'lead-project',
+    type: 'Pet/commercial projects',
     name: 'Landing Page CyberGid',
     about: 'Страница рассказывает о приложении-аудиогиде CyberGid. Выполнена адаптивная и кроссбраузерная вёрстка, настроены переходы по ссылкам, слайдер для карточек.',
     img_bg: './images/flowers/pic4.jpg',
@@ -31,7 +31,7 @@ const projectsArr = [
   },
   {
     id: 1,
-    type: 'lead-project',
+    type: 'Pet/commercial projects',
     name: 'Pet Project Simple-reports',
     about: 'Проект создан группой junior разработчиков и направлен на сбор и анализ данных для маркетинговых исследований. Находится на стадии разработки.',
     img_bg: './images/flowers/pic9.jpg',
@@ -43,7 +43,7 @@ const projectsArr = [
   },
   {
     id: 2,
-    type: 'lead-project',
+    type: 'Pet/commercial projects',
     name: 'Web site АиБ Цифровизация',
     about: 'Коммерческая разработка frontend части web-сайта для компании АиБ Цифровизация. Выполнена адаптивная и кроссбраузерная вёрстка, настроена валидация и отправка данных на сервер, фильтры и слайдер карточек.',
     img_bg: './images/flowers/pic6.jpg',
@@ -54,7 +54,7 @@ const projectsArr = [
   },
   {
     id: 3,
-    type: 'test-project',
+    type: 'Test task',
     name: 'WhatsApp web',
     about: 'Пользовательский интерфейс для отправки и получений сообщений WhatsApp. Использован прототип сайта https://web.whatsapp.com/ Необходимы учетные данные из системы GREEN-API (idInstance, apiTokenInstance)',
     img_bg: './images/flowers/pic7.jpg',
@@ -65,7 +65,7 @@ const projectsArr = [
   },
   {
     id: 4,
-    type: 'test-project',
+    type: 'Test task',
     name: 'React Leaflet',
     about: 'Приложение React отображающее точки маршрута в виде маркеров на карте Leaflet. Между точек формируется оптимальный маршрут и отображается в виде полилиний, полученных из сервиса построения треков по дорогам OSRM',
     img_bg: './images/flowers/pic8.jpg',
@@ -76,7 +76,7 @@ const projectsArr = [
   },
   {
     id: 5,
-    type: 'test-project',
+    type: 'Test task',
     name: 'Landing Page DELL',
     about: 'Страница компании DELL создана в рамках тестового задания. Выполнена адаптивная и кроссбраузерная вёрстка 375px-1920px, создано выпадающее меню при наведение и клике на бургер в мобильной версии, выполнена минимальная валидация данных в форме.',
     img_bg: './images/flowers/pic5.jpg',
@@ -87,7 +87,7 @@ const projectsArr = [
   },
   {
     id: 6,
-    type: 'learn-project',
+    type: 'Learn projects',
     name: 'Burger designer',
     about: 'Онлайн-конструктор бургеров позволяет создать свой собственный уникальный бургер из списка представленных ингредиентов. Доступны регистрация, сброс пароля, заказ бургера, просмотр прошлых заказов, изменение учетных данных. Необходима авторизация (указать email, без подтверждения)',
     img_bg: './images/flowers/pic1.jpg',
@@ -98,7 +98,7 @@ const projectsArr = [
   },
   {
     id: 7,
-    type: 'learn-project',
+    type: 'Learn projects',
     name: 'Social network "Mesto"',
     about: 'Социальная сеть для обмена фотографиями. Доступны добавление и удаление фотографий, регистрация, изменение учетных данных, установка/снятие лайка. Необходима авторизация (указать email, без подтверждения)',
     img_bg: './images/flowers/pic2.jpg',
@@ -109,7 +109,7 @@ const projectsArr = [
   },
   {
     id: 8,
-    type: 'learn-project',
+    type: 'Learn projects',
     name: 'Landing Page Russian Travel',
     about: 'На странице рассказывается о путешествиях по России. Пользователь может посмотреть фотографии, прочитать об интересных фактах, пройдя по ссылкам - получить дополнительную информацию при планировании путешествия.',
     img_bg: './images/flowers/pic3.jpg',
@@ -120,7 +120,7 @@ const projectsArr = [
   },
   {
     id: 9,
-    type: 'test-project',
+    type: 'Test task',
     name: 'Google Books',
     about: 'Приложение для поиска книг в библиотеке Google. Доступен поиск по ключевым словам, сортировка и дополнительная информация о найденных книгах. Выполнена адаптивная вёрстка, использован React + Redux + TypeScript',
     img_bg: './images/flowers/pic10.jpg',
@@ -131,7 +131,7 @@ const projectsArr = [
   },
   {
     id: 10,
-    type: 'test-project',
+    type: 'Test task',
     name: 'Landing Page SpaceX',
     about: 'Главная страница сайта компании SpaceX создана в рамках тестового задания. Выполнена адаптивная вёрстка по минимальному макету в формате psd, использован React',
     img_bg: './images/flowers/pic11.jpg',
@@ -142,7 +142,7 @@ const projectsArr = [
   },
   {
     id: 11,
-    type: 'test-project',
+    type: 'Test task',
     name: 'Github Users',
     about: 'Приложение для поиска пользователя в Github. Доступен поиск по имени, сортировка, информация о пользователе, его репозиториях, настроена пагинация, использован React, Router + Rest API + Cypress',
     img_bg: './images/flowers/pic12.jpg',
@@ -153,7 +153,7 @@ const projectsArr = [
   },
   {
     id: 12,
-    type: 'lead-project',
+    type: 'Pet/commercial projects',
     name: 'Pet project Calculator',
     about: 'Математический калькулятор. Доступны базовые операции, округление до сотых, удаление последнего символа, выполнена вёрстка двух тем (светлая и тёмная).',
     img_bg: './images/flowers/pic13.jpg',
@@ -164,7 +164,7 @@ const projectsArr = [
   },
   {
     id: 13,
-    type: 'test-project',
+    type: 'Test task',
     name: 'Task list',
     about: 'ToDo-приложение, позволяющее управлять текущим списком дел. Доступно добавление, редактирование и удаление задач. Фильтр по дате и список всех задач, с группировкой выполненных и невыполненных задач (по отдельности). Использован React + TypeScript + Cypress',
     img_bg: './images/flowers/pic14.jpg',
@@ -175,7 +175,7 @@ const projectsArr = [
   },
   {
     id: 14,
-    type: 'test-project',
+    type: 'Test task',
     name: 'Data list',
     about: 'SPA приложение-таблица со списком данных. Данные подгружаются по API, настроен онлайн-фильтр, поиск осуществляется по всем столбцам, есть возможность сортировки, вёрстка выполнена согласно макету. Использован React, Router, Bootstrap + Redux, Saga, Toolkit',
     img_bg: './images/flowers/pic15.jpg',
@@ -186,7 +186,7 @@ const projectsArr = [
   },
   {
     id: 15,
-    type: 'lead-project',
+    type: 'Pet/commercial projects',
     name: 'Landing Page Interno',
     about: 'Страница компании Interno. Выполнена вёрстка desctop версии для 1440px. Использована методология БЭМ.',
     img_bg: './images/flowers/pic17.jpg',

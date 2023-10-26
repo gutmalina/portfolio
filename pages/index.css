@@ -13,6 +13,7 @@
 
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/subtitle/__popup/subtitle__popup.css);
+@import url(../blocks/subtitle/__portfolio/subtitle__portfolio.css);
 
 @import url(../blocks/list/__popup/list__popup.css);
 
@@ -72,6 +73,8 @@
 @import url(../blocks/greeting/__subtitle/greeting__subtitle_skills.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle_about.css);
 @import url(../blocks/greeting/__subtitle/greeting__subtitle_footer.css);
+@import url(../blocks/greeting/__filter/greeting__filter.css);
+@import url(../blocks/greeting/__li/greeting__li.css);
 
 @import url(../blocks/portfolio/porfolio.css);
 

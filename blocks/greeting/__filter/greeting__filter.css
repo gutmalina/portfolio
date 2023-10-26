@@ -1,0 +1,33 @@
+.greeting__filter {
+  display: flex;
+  gap: 15px;
+  position: relative;
+}
+
+.greeting__filter:before {
+  content: '<ul>';
+  font-size: 16px;
+  color: var(--border);
+  position: absolute;
+  top: -22px;
+  left: 5px;
+}
+
+.greeting__filter:after {
+  content: '</ul>';
+  font-size: 16px;
+  color: var(--border);
+  position: absolute;
+  bottom: -28px;
+  left: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .greeting__filter::before {
+    left: -25px
+  }
+
+  .greeting__filter:after {
+    left: -25px;
+  }
+}

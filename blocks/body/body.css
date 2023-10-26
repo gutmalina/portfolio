@@ -22,6 +22,7 @@
   --border-primary: #d761a5;
   --bg-primary: #1d1d1d;
   --bg-secondary: #181818;
+  --border: #515152;
 }
 
 a {
@@ -45,4 +46,8 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+li {
+  cursor: pointer;
 }

@@ -3,8 +3,8 @@
   border: none;
   line-height: 80px;
   -webkit-transition: color 0.4s linear;
-  -o-transition: color 0.4s linear;
-  transition: color 0.4s linear;
+       -o-transition: color 0.4s linear;
+          transition: color 0.4s linear;
   position: relative;
   color: #8d8d8d;
   font-style: normal;
