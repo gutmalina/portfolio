@@ -1,6 +1,5 @@
 const letterList = document.querySelectorAll('.greeting__letter');
-const menuBtn = document.querySelector('.menu');
-const menuBtnClose = document.querySelector('.header__close');
+const menuBtn = document.querySelector('.btn__menu');
 const header = document.querySelector('.header');
 const menuLinks = document.querySelectorAll('.header__link');
 const background = document.querySelector('.background');

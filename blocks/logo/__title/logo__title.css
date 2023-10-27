@@ -1,6 +1,6 @@
-.header__title_bottom {
+.logo__title {
   position: absolute;
   top: 27px;
   left: 24px;
-  color: #FFD3FF;
+  color: var(--title-primary);
 }

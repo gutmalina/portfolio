@@ -1,30 +1,43 @@
 @font-face {
-  font-family: 'Gwendolyn';
+  font-family: "Gwendolyn";
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./Gwendolyn-Regular.ttf) format("ttf")
+  src: local("Gwendolyn"),
+       url(./Gwendolyn-Regular.ttf) format("ttf"),
+       url(./Gwendolyn-Regular.woff2) format("woff2"),
+       url(./Gwendolyn-Regular.woff) format("woff");
 }
+
 @font-face {
-  font-family: 'Gwendolyn';
+  font-family: "Gwendolyn";
   font-style:  bold;
   font-weight: 700;
   font-display: swap;
-  src: url(./Gwendolyn-Bold.ttf) format("ttf")
+  src: local("Gwendolyn"),
+       url(./Gwendolyn-Bold.ttf) format("ttf"),
+       url(./Gwendolyn-Bold.woff2) format("woff2"),
+       url(./Gwendolyn-Bold.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
+  font-family: "PlayfairDisplay";
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url(./PlayfairDisplay-Regular.ttf) format("ttf")
+  src: local("PlayfairDisplay"),
+       url(./PlayfairDisplay-Regular.ttf) format("ttf"),
+       url(./PlayfairDisplay-Regular.woff2) format("woff2"),
+       url(./PlayfairDisplay-Regular.woff) format("woff");
 }
 
 @font-face {
-  font-family: 'PlayfairDisplay';
+  font-family: "PlayfairDisplay";
   font-style:  italic;
   font-weight: 400;
   font-display: swap;
-  src: url(./PlayfairDisplay-Italic.ttf) format("ttf")
+  src: local("PlayfairDisplay"),
+       url(./PlayfairDisplay-Italic.ttf) format("ttf"),
+       url(./PlayfairDisplay-Italic.woff2) format("woff2"),
+       url(./PlayfairDisplay-Italic.woff) format("woff");
 }

@@ -4,9 +4,16 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/indent/indent.css);
 
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__link/logo__link.css);
+@import url(../blocks/logo/__title/logo__title.css);
+@import url(../blocks/logo/__subtitle/logo__subtitle.css);
+
 @import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/__menu/btn__menu.css);
 @import url(../blocks/btn/__profile/btn__profile.css);
 @import url(../blocks/btn/__close/btn__close.css);
+@import url(../blocks/btn/__close/_theme_white/btn__close_theme_white.css);
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/__popup/title__popup.css);
@@ -23,13 +30,7 @@
 @import url(../blocks/link/link__icon/_telegram/link__icon_telegram.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__name/header__name.css);
-@import url(../blocks/header/__close/header__close.css);
-@import url(../blocks/header/__img/header__img.css);
-@import url(../blocks/header/__initials/header__initials.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__title/header__title_bottom.css);
-@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__visible/header__visible.css);
 @import url(../blocks/header/__links/header__links.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__pages/header__pages.css);
@@ -37,9 +38,6 @@
 @import url(../blocks/header/__icon/header__icon.css);
 @import url(../blocks/header/__border/header__border.css);
 @import url(../blocks/header/__border/header__border_active.css);
-
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/menu/__img/menu__img.css);
 
 @import url(../blocks/main/main.css);
 

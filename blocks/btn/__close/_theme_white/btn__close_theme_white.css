@@ -1,0 +1,10 @@
+.btn__close_theme_white {
+  background-image: url(../../../../images/icon_close_white.svg);
+  z-index: 100;
+}
+
+@media screen and (min-width: 480px) {
+  .btn__close_theme_white {
+    display: none;
+  }
+}
