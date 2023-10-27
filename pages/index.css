@@ -114,6 +114,8 @@
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__contact/footer__contact.css);
 @import url(../blocks/footer/__card/footer__card.css);
+@import url(../blocks/footer/__icons/footer__icons.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
 
 @import url(../blocks/contact/contact.css);
 @import url(../blocks/contact/__cards/contact__cards.css);

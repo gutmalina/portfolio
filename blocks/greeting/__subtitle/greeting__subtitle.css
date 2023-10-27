@@ -1,8 +1,8 @@
 .greeting__subtitle {
   margin: 0;
-  color: #8d8d8d;
+  color: var(--text-primary);
   font-style: normal;
-  font-size: clamp(18px, 3vw, 24px);
+  font-size: clamp(18px, 3vw, 22px);
   white-space: pre-line;
   position: relative;
   margin-right: 20px;
@@ -12,7 +12,7 @@
   content: '<p>';
   font-size: 16px;
    font-style: italic;
-  color: #515152;
+  color: var(--border);
   position: absolute;
   top: -22px;
   left: 5px;
@@ -22,7 +22,7 @@
   content: '</p>';
   font-size: 16px;
    font-style: italic;
-  color: #515152;
+  color: var(--border);
   position: absolute;
   bottom: -22px;
   left: 5px;

@@ -1,0 +1,36 @@
+.footer__icons {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  margin-top: 80px;
+}
+
+.footer__icons:before {
+  content: "<footer>";
+  font-size: 16px;
+  font-style: italic;
+  color: #515152;
+  position: absolute;
+  top: -35px;
+  left: 5px;
+}
+
+.footer__icons:after {
+  content: "</footer>";
+  font-size: 16px;
+  font-style: italic;
+  color: #515152;
+  position: absolute;
+  bottom: -35px;
+  left: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .footer__icons::before {
+    left: -25px;
+  }
+
+  .footer__icons:after {
+    left: -25px;
+  }
+}
