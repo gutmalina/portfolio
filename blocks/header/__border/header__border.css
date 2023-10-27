@@ -5,13 +5,13 @@
 
 .header__border:hover::before {
   -webkit-transform: scaleX(1);
-  -ms-transform: scaleX(1);
-  transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1);
   -webkit-transition: -webkit-transform 0.4s linear;
-  transition: -webkit-transform 0.4s linear;
+          transition: -webkit-transform 0.4s linear;
   -o-transition: transform 0.4s linear;
-  transition: transform 0.4s linear;
-  transition: transform 0.4s linear, -webkit-transform 0.4s linear;
+     transition: transform 0.4s linear;
+     transition: transform 0.4s linear, -webkit-transform 0.4s linear;
 }
 
 .header__border:before {
@@ -27,8 +27,8 @@
   -webkit-transition: -webkit-transform 0.4s linear;
   transition: -webkit-transform 0.4s linear;
   -o-transition: transform 0.4s linear;
-  transition: transform 0.4s linear;
-  transition: transform 0.4s linear, -webkit-transform 0.4s linear;
+     transition: transform 0.4s linear;
+     transition: transform 0.4s linear, -webkit-transform 0.4s linear;
   -webkit-transform-origin: left;
   -ms-transform-origin: left;
   transform-origin: left;

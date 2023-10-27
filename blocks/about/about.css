@@ -3,17 +3,17 @@
   margin-bottom: 150px;
   display: grid;
   display: -ms-grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+     -ms-flex-align: center;
+        align-items: center;
 }
 
 @media screen and (min-width: 640px) {
   .about {
     margin-right: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 6%;
   }
 }

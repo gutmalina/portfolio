@@ -3,7 +3,7 @@
   margin-bottom: 150px;
   display: grid;
   display: -ms-grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   -ms-grid-columns: 1fr;
   gap: 5%;
 }
@@ -17,7 +17,7 @@
 @media screen and (min-width: 640px) {
   .skills {
     margin-right: 20px;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 6%;
   }
 }
@@ -31,7 +31,6 @@
 @media screen and (min-width: 1280px) {
   .skills {
     height: 100vh;
-    margin-right: 0;
     gap: 2%;
   }
 }
